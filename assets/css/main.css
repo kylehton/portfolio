@@ -1633,8 +1633,8 @@ section,
 
 /* Optional: Ensures padding and margins are maintained */
 .portfolio-item {
-  padding: 0px;        /* Adjust the padding as necessary */
-  margin: 0px;         /* Adjust the margin as necessary */
+  padding: 5px;        /* Adjust the padding as necessary */
+  margin-bottom: 0px;         /* Adjust the margin as necessary */
 }
 
 
