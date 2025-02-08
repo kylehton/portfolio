@@ -9,9 +9,9 @@ export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const menuItems = [
-    { title: 'experience', delay: 'delay-100' },
-    { title: 'projects', delay: 'delay-200' },
-    { title: 'contacts', delay: 'delay-300' }
+    { title: 'experience', delay: 'delay-500', link: '#experience' },
+    { title: 'projects', delay: 'delay-300', link: '#projects'},
+    { title: 'socials', delay: 'delay-100', link: '#biography'}
   ];
 
   const images = [
@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <div>
-      <div id='Header' className="flex justify-between items-center ml-12 mt-6">
+      <div id='header' className="flex justify-between items-center ml-12 mt-6">
         <h1 className="font-semibold text-3xl">kyle ton
           <span className="font-normal mx-4 text-zinc-600 ">|</span> 
           <span className="align-middle text-sm font-light text-zinc-500">
@@ -45,8 +45,9 @@ export default function Home() {
               {menuItems.map((item, index) => (
                 <button
                   key={item.title}
+                  href={item.link}
                   className={`
-                    mb-[18px] mr-8 text-lg font-normal text-zinc-600
+                    mb-[17px] mr-8 text-lg font-normal text-zinc-600
                     transition-all duration-500 ease-in-out
                     ${item.delay}
                     ${isMenuOpen 
@@ -69,8 +70,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="Biography Text+Pic" className='flex inline justify-start items-center'>
-      <div id='Biography' className='ml-40 mt-12 w-2/6'>
+      <div id="biography" className='flex inline justify-start items-center'>
+      <div className='ml-40 mt-12 w-2/6'>
           <h1 className='font-medium text-[24px] mb-6'>hello, i'm . . .</h1>
           <div className='ml-2 space-y-6'>
             <p className='font-light text-sm'>
@@ -100,6 +101,18 @@ export default function Home() {
         />
         <p className='mt-1 mr-2 text-xs text-right prestige-elite'>japan 04.2024</p>
       </div>
+      </div>
+      <div id="experience" className="mt-20">
+        <h2>Experience Section</h2>
+        {/* Content for Experience */}
+      </div>
+      <div id="projects" className="mt-20">
+        <h2>Projects Section</h2>
+        {/* Content for Projects */}
+      </div>
+      <div id="socials" className="mt-20">
+        <h2>Contacts Section</h2>
+        {/* Content for Contacts */}
       </div>
     </div>
   );
