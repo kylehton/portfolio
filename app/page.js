@@ -104,15 +104,9 @@ export default function Home() {
       </div>
       <div id="experience" className="mt-20">
         <h2>Experience Section</h2>
-        {/* Content for Experience */}
-      </div>
-      <div id="projects" className="mt-20">
-        <h2>Projects Section</h2>
-        {/* Content for Projects */}
       </div>
       <div id="socials" className="mt-20">
         <h2>Contacts Section</h2>
-        {/* Content for Contacts */}
       </div>
     </div>
   );
