@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.prestige-elite {
+  font-family: 'Prestige Elite Std', monospace;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Text", "SF Pro Display", sans-serif;
 }
