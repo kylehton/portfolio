@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",    
+    "dev": "next dev",
     "deploy": "npm run build",
     "build": "next build",
     "start": "next start",
@@ -21,6 +21,7 @@
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-github-calendar": "^4.5.5",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
   },
