@@ -2,11 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kylehton.github.io/portfolio",
   "scripts": {
-    "predeploy": "npm run build",
-    "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out",
+    "dev": "next dev",    
+    "deploy": "npm run build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
