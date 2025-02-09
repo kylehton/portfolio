@@ -2,15 +2,16 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu } from 'lucide-react';
+import GitHubCalendar from "react-github-calendar";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const menuItems = [
-    { title: 'experience', delay: 'delay-500', link: '#experience' },
-    { title: 'projects', delay: 'delay-300', link: '#projects'},
-    { title: 'socials', delay: 'delay-100', link: '#biography'}
+    { title: 'education', delay: 'delay-500', link: '#education' },
+    { title: 'experience', delay: 'delay-300', link: '#experience'},
+    { title: 'projects', delay: 'delay-100', link: '#projects'}
   ];
 
   const images = [
@@ -80,7 +81,7 @@ export default function Home() {
       </header>
 
       {/* Rest of the content remains unchanged */}
-      <main className="px-4 lg:px-12 py-8">
+      <main id='biography' className="px-4 lg:px-12 py-8">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
           <div className="lg:w-3/5">
             <h2 className="font-medium text-2xl mb-6">hello, i'm . . .</h2>
@@ -123,7 +124,173 @@ export default function Home() {
         </div>
       </main>
 
+      <main id='education' className="px-4 lg:px-12 py-8">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+          <div>
+            <h1 className="font-medium text-3xl mb-8">education</h1>
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <div id='individual-edu'>
+                  <div id='div-to-hold-headers'>
+                    <h4 className='font-medium text-[17.5px]'>b.s. in computer science &nbsp;[transferring to 4-year university]</h4>
+                    <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+                        <p>orange coast college - costa mesa, ca</p>
+                        <p className='mr-2 text-xs'>jun 2023 - aug 2025</p>
+                    </div>
+                  </div>
+                    <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+                    relevant coursework: object oriented programming, computer architecture and assembly,
+                    discrete mathematics, data structures and algorithms, linear algebra, single and 
+                    multivariable calculus, differential equations.
+                    </p>
+                </div>
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
       
+      <main id='experience' className="px-4 lg:px-12 py-8">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+          <div>
+            <h1 className="font-medium text-3xl mb-8">experience</h1>
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <div id='individual-exp'>
+                  <div id='div-to-hold-headers'>
+                    <h4 className='font-medium text-[17.5px]'>software engineering intern</h4>
+                    <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+                        <p>trace - garden grove, ca</p>
+                        <p className='mr-2 text-xs'>aug 2024 - jan 2025</p>
+                    </div>
+                  </div>
+                    <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+                    automated version control by scripting python-based automation to extract camera version numbers for documentation and maintainability.
+                    developed a remote camera control script using paramiko ssh connections for user-initiated commands, enhancing connectivity testing workflows by 20%.
+                    </p>
+                </div>
+                <div id='individual-exp'>
+                  <div id='div-to-hold-headers'>
+                    <h4 className='font-medium text-[17.5px]'>ai engineering intern</h4>
+                    <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+                        <p>product manager accelerator - remote</p>
+                        <p className='mr-2 text-xs'>oct 2024 - dec 2024</p>
+                    </div>
+                  </div>
+                    <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+                      developed a full-stack resume enhancement application tailored for product management, implementing trend analysis and keyword optimization.
+                      <br></br>built a fastapi microservice with generative ai using prompt engineering to request resume suggestions.
+                      <br></br>stored resume contents in a non-relational database using user's google id as the document id.
+                      <br></br>leveraged a custom agent that uses blockchain llms with retrieval augmented generation (rag) with custom datasets to optimize resume improvements.
+                      <br></br>optimized backend processes by configuring celery and redis for asynchronous task-queue handling; deployed and managed on heroku.
+                    </p>
+                </div>
+                <div id='individual-exp'>
+                  <div id='div-to-hold-headers'>
+                    <h4 className='font-medium text-[17.5px]'>ai trainer - language models</h4>
+                    <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+                        <p>dataannotation - remote [part-time]</p>
+                        <p className='mr-2 text-xs'>jun 2024 - dec 2024</p>
+                    </div>
+                  </div>
+                    <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+                    automated version control by scripting python-based automation to extract camera version numbers for documentation and maintainability.
+                    developed a remote camera control script using paramiko ssh connections for user-initiated commands, enhancing connectivity testing workflows by 20%.
+                    </p>
+                </div>
+                <div id='individual-exp'>
+                  <div id='div-to-hold-headers'>
+                    <h4 className='font-medium text-[17.5px]'>ai software engineering fellow</h4>
+                    <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+                        <p>headstarter ai - remote</p>
+                        <p className='mr-2 text-xs'>jul 2024 - sep 2024</p>
+                    </div>
+                  </div>
+                    <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+                    completed hands-on projects applying full-stack development concepts with react, firebase, and next.js, showcasing collaborative coding and ai integration.
+                    acquired experience using a variety of apis, such as openai api and stripe
+                    </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <main id='projects' className="px-4 lg:px-12 py-8">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+          <div>
+            <h1 className="font-medium text-3xl mb-8">projects</h1>
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <div id='individual-project'>
+                  <div id='div-to-hold-headers'>
+                    <h4 className='font-medium text-[17.5px]'>project in progress</h4>
+                    <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+                        <p>incomplete, will be finished by february?</p>
+                        <p className='mr-2 text-xs'></p>
+                    </div>
+                  </div>
+                    <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <main id='skills' className="px-4 lg:px-12 py-4">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
+          <div>
+            <h1 className="font-medium text-3xl mb-2">skills</h1>
+            
+              <div id='skillset' className="ml-2 font-light text-[15px] space-y-1">
+                <p><b className='font-semibold'>languages:</b> html/css, javascript, python, java, c++</p>
+                <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js</p>
+                <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postman, visual studio code</p>
+                <p><b className='font-semibold'>libraries:</b> numpy, pandas, matplotlib, tailwind css,</p>
+              </div>
+          </div>
+        </div>
+      </main>
+
+      <main id='socials' className="px-4 lg:px-12 py-8 mb-32">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
+          <div>
+            <h1 className="font-medium text-3xl mb-2">socials 
+              <span className='text-xl font-normal'>&nbsp; [click below]
+                </span>
+                </h1>
+              <div className="text-zinc-600 ml-2 space-y-2">
+                <div id='my-social-links'>
+                <a href='https://www.linkedin.com/in/kyle-ton/' className='font-normal text-[16px]'>linkedin [kylehton]</a>
+                <br></br>
+                <a href='https://www.github.com/kylehton/' className='font-normal text-[16px]'>github [kylehton]</a>
+              </div>
+
+              <div className="github-calendar-container">
+                <h3 className='font-semibold text-lg mt-8 mb-2'>My GitHub Contributions</h3>
+                <div className="github-data">
+                <GitHubCalendar
+                  username="kylehton"
+                  theme={{
+                    dark: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"], // 5 colors
+                    light: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"] // 5 colors
+                  }}
+                />
+                </div>
+              </div>
+
+              </div>
+          </div>
+        </div>
+      </main>
+
     </div>
   );
 }
