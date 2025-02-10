@@ -3,7 +3,7 @@ import { Menu } from 'lucide-react';
 import React, { useState } from 'react';
 
 
-export default function NameAndMenu() {
+const NameAndMenu = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -61,3 +61,5 @@ export default function NameAndMenu() {
         </header>
     );
 }
+
+export default NameAndMenu;

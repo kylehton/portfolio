@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-export default function Intro() {
+const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const images = [
@@ -29,7 +29,7 @@ export default function Intro() {
     <div id='intro-wrapper'>
       {/* Rest of the content remains unchanged */}
       <main id='biography' className="px-4 lg:px-12 py-8">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+        <div className="mb-32 flex flex-col lg:flex-row gap-8 lg:gap-16">
           <div className="lg:w-3/5">
             <h2 className="font-medium text-2xl mb-6">hello, i'm . . .</h2>
             <div className="space-y-6">
@@ -73,3 +73,5 @@ export default function Intro() {
     </div>
     );
 }
+
+export default Intro;
