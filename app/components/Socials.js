@@ -13,15 +13,16 @@ export default function Socials() {
                 </h1>
               <div className="text-zinc-600 ml-2 space-y-2">
                 <div id='my-social-links'>
-                <a href='https://www.linkedin.com/in/kyle-ton/' className='font-normal text-[16px]'>linkedin [kylehton]</a>
+                <a href='https://www.linkedin.com/in/kyle-ton/' className='font-normal text-[18px]'>linkedin [kylehton]</a>
                 <br></br>
-                <a href='https://www.github.com/kylehton/' className='font-normal text-[16px]'>github [kylehton]</a>
+                <a href='https://www.github.com/kylehton/' className='font-normal text-[18px]'>github [kylehton]</a>
               </div>
 
-              <div className="github-calendar-container">
-                <h3 className='font-semibold text-lg mt-8 mb-2'>My GitHub Contributions</h3>
-                <div className="github-data">
+              <div className="github-calendar-container prestige-elite">
+                <h3 className='font-semibold text-xl mt-16 mb-6'>my github contributions</h3>
+                <div className="github-calendar">
                 <GitHubCalendar
+                  className=""
                   username="kylehton"
                   theme={{
                     dark: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"], // 5 colors
