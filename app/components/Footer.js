@@ -1,5 +1,5 @@
 
-export default function Footer() {
+const Footer = () => {
 
     return (
         <div className='mt-10 mb-10 w-full flex justify-end'>
@@ -9,3 +9,4 @@ export default function Footer() {
         </div>
     )
 }
+export default Footer;

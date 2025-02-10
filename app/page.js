@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div id='all-component-wrapper' className="min-h-screen bg-white">
       <NameAndMenu />
           <Intro />
           <Education />
