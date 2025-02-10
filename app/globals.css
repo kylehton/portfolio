@@ -11,12 +11,6 @@
   text-transform: lowercase;
 }
 
-/* Target the "Less" and "More" labels in the legend */
-.github-calendar .contrib-legend text {
-  text-transform: lowercase;
-}
-
-
 .container {
   display: flex;
   flex-direction: column;
