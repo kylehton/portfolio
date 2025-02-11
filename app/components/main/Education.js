@@ -5,7 +5,7 @@ import EduExpEntry from "../reusable/EduExpEntry";
 const Education = () => {
 
     return (
-      <main id='education' className="px-4 lg:px-12 py-8">
+      <main id='education' className="px-4 lg:px-12 py-8 md:mt-8">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div className='lg:min-w-full'>
           <ScrollMotionWrapper 
