@@ -6,9 +6,9 @@ const NameAndMenu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const menuItems = [
-        { title: 'education', delay: 'delay-500', link: '#education' },
-        { title: 'experience', delay: 'delay-300', link: '#experience'},
-        { title: 'projects', delay: 'delay-100', link: '#projects'}
+        { title: 'education', delay: 'delay-500', id: 'education' },
+        { title: 'experience', delay: 'delay-300', id: 'experience'},
+        { title: 'projects', delay: 'delay-100', id: 'projects'}
     ];
 
     return (
@@ -30,7 +30,7 @@ const NameAndMenu = () => {
                         {menuItems.map((item) => (
                             <a
                                 key={item.title}
-                                href={item.link}
+                                href={`#${item.id}`}
                                 className={`
                                     mr-4 lg:mr-8 text-sm lg:text-lg font-normal text-zinc-600
                                     transition-all duration-500 ease-in-out

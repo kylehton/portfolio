@@ -17,7 +17,7 @@ const Education = () => {
           <div id='all-education-wrapper' className="space-y-8">
             <EduExpEntry
               content={{
-                title: 'b.s. in computer science [transferring to 4-year university]',
+                title: "bachelor's in computer science [transferring to 4-year university]",
                 location: 'orange coast college - costa mesa, ca',
                 dates: 'jun 2023 - aug 2025',
                 description: 'relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations.'
