@@ -15,7 +15,7 @@ const NameAndMenu = () => {
 
     return (
 
-        <header className="px-4 lg:px-12 py-6">
+        <header className="2xl:mt-4 px-4 lg:px-12 py-6">
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
             {/* Title content */}
             <div className="order-2 lg:order-1 flex items-center mt-6 lg:mt-0">
