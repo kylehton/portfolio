@@ -27,7 +27,7 @@ const Intro = () => {
 
     return (
         <div id='intro-wrapper'>
-            <main id='biography' className="px-28 lg:px-12 py-8">
+            <main id='biography' className="px-4 pt-12 sm:py-8 sm:mt-2 sm:px-28 lg:px-12">
                 <div className="2xl:mb-56 2xl:mt-12 mb-32 flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* Text content section */}
                     <div className="lg:w-3/5"> {/* Added padding for 2xl */}
