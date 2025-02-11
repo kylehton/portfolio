@@ -1,16 +1,16 @@
-import NameAndMenu from './components/NameAndMenu';
-import Intro from './components/Intro';
-import Education from './components/Education';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Socials from './components/Socials';
-import Footer from './components/Footer';
+import NameAndMenu from './components/main/NameAndMenu';
+import Intro from './components/main/Intro';
+import Education from './components/main/Education';
+import Experience from './components/main/Experience';
+import Projects from './components/main/Projects';
+import Skills from './components/main/Skills';
+import Socials from './components/main/Socials';
+import Footer from './components/main/Footer';
 
 
 export default function Home() {
   return (
-    <div id='all-component-wrapper' className="min-h-screen bg-white">
+    <div id='all-component-wrapper' className="px-4 lg:px-0 min-h-screen bg-white">
       <NameAndMenu />
           <Intro />
           <Education />

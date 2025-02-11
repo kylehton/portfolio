@@ -1,5 +1,5 @@
 import GitHubCalendar from "react-github-calendar";
-import ScrollMotionWrapper from "../motion/ScrollMotionWrapper";
+import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
 
 const Socials = () => {
 

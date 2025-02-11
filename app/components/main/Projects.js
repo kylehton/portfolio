@@ -1,5 +1,5 @@
 
-import ScrollMotionWrapper from "../motion/ScrollMotionWrapper";
+import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
 
 const Projects = () => {
 
