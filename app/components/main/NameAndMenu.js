@@ -26,7 +26,7 @@ const NameAndMenu = () => {
                 {/* Menu Container */}
                 <div id="menu-container" className="order-1 sm:order-2 relative flex justify-end">
                     {/* Menu Items */}
-                    <div className="absolute right-8 lg:right-full top-1/2 -translate-y-1/2 flex items-center lg:mr-4">
+                    <div className="absolute right-8 lg:right-full top-1/2 -translate-y-1/2 flex items-center mt-[2px] lg:mr-4">
                         {menuItems.map((item) => (
                             <a
                                 key={item.title}

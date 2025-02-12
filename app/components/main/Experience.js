@@ -15,40 +15,45 @@ const Experience = () => {
           <div id='all-experience-wrapper' className="space-y-8">
               
             <EduExpEntry
-              content={{
-                title: 'software engineering intern',
-                location: 'trace - garden grove, ca',
-                dates: 'aug 2024 - jan 2025',
-                description: 'automated version control by scripting python-based automation to extract camera version numbers for documentation and maintainability. developed a remote camera control script using paramiko ssh connections for user-initiated commands, enhancing connectivity testing workflows by 20%.'
-              }}>
-            </EduExpEntry>
-                
+                content={{
+                  title: 'software engineering intern',
+                  location: 'trace - garden grove, ca',
+                  dates: 'aug 2024 - jan 2025',
+                  description: `streamlined camera version tracking by automating python-based version control logging, improving documentation accuracy for 100+ devices. 
+                                reduced manual troubleshooting time by 40% by developing a remote camera control script with paramiko ssh, enabling faster connectivity testing.`
+                }}
+            />
+
             <EduExpEntry
               content={{
                 title: 'ai engineering intern',
                 location: 'product manager accelerator - remote',
                 dates: 'oct 2024 - dec 2024',
-                description: 'developed a full-stack resume enhancement application tailored for product management, implementing trend analysis and keyword optimization.\nbuilt a fastapi microservice with generative ai using prompt engineering to request resume suggestions.\nstored resume contents in a non-relational database using user\'s google id as the document id.\nleveraged a custom agent that uses blockchain llms with retrieval augmented generation (rag) with custom datasets to optimize resume improvements.\noptimized backend processes by configuring celery and redis for asynchronous task-queue handling; deployed and managed on heroku.'
-              }}>
-            </EduExpEntry>
-                
+                description: `increased resume keyword relevance by 15% by developing a full-stack resume enhancement application that applied trend analysis and ai-driven keyword optimization.
+                              improved resume clarity by 20% by implementing a custom rag-based ai agent that retrieved relevant resume suggestions from proprietary datasets.
+                              reduced backend processing time by 30% by configuring celery and redis for asynchronous task handling in a fastapi microservice.
+                              designed a scalable document storage system by structuring mongodb documents with google id, efficiently managing over 100 stored resumes.`,
+              }}
+            />
+
             <EduExpEntry
               content={{
                 title: 'ai trainer - language models',
                 location: 'dataannotation - remote [part-time]',
                 dates: 'jun 2024 - dec 2024',
-                description: 'automated version control by scripting python-based automation to extract camera version numbers for documentation and maintainability. developed a remote camera control script using paramiko ssh connections for user-initiated commands, enhancing connectivity testing workflows by 20%.'
-              }}>
-            </EduExpEntry>
+                description: `trained over 200 generative ai small language models (slms) on diverse datasets to boost output relevance.
+                              performed code evaluations in multiple languages, refining algorithms to enhance response accuracy and correctness.`
+              }}
+            />
 
             <EduExpEntry
               content={{
                 title: 'ai software engineering fellow',
                 location: 'headstarter ai - remote',
                 dates: 'jul 2024 - sep 2024',
-                description: 'completed hands-on projects applying full-stack development concepts with react, firebase, and next.js, showcasing collaborative coding and ai integration. acquired experience using a variety of apis, such as openai api and stripe'
-              }}>
-            </EduExpEntry>
+                description: `completed hands-on projects applying full-stack development concepts with react, firebase, and next.js, showcasing collaborative coding and ai integration. acquired experience using a variety of apis, such as openai api and stripe api`
+              }}
+            />
           </div>
         </div>
       </div>

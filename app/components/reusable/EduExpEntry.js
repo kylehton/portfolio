@@ -5,7 +5,7 @@ const EduExpEntry = ({ content }) => {
     <div>
       <ScrollMotionWrapper
         contents={
-          <div id="individual-exp">
+          <div id="individual-entry">
             <div id="div-to-hold-headers">
               <h4 className="font-medium text-[17.5px]">{content.title}</h4>
               <div className="text-sm grid grid-cols-1 lg:grid-cols-2">
@@ -13,7 +13,10 @@ const EduExpEntry = ({ content }) => {
                 <p className="lg:text-right text-xs">{content.dates}</p>
               </div>
             </div>
-            <p id="job-summary" className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
+            <p 
+              id="job-summary" 
+              className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm whitespace-pre-line"
+            >
               {content.description}
             </p>
           </div>

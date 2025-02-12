@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.individual-entry {
+  white-space: new-line;
+}
+
 .prestige-elite {
   font-family: 'Prestige Elite Std', monospace;
 }
