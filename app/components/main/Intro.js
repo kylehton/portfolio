@@ -27,28 +27,28 @@ const Intro = () => {
 
     return (
         <div id='intro-wrapper'>
-            <main id='biography' className="px-4 pt-12 sm:py-8 md:py-16 sm:mt-2 sm:px-28 lg:px-12">
+            <main id='biography' className="px-4 pt-12 sm:py-8 md:py-16 sm:mt-2 sm:px-28 lg:px-16">
                 <div className="2xl:mb-56 2xl:mt-12 mb-32 flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* Text content section */}
                     <div className="lg:w-3/5"> {/* Added padding for 2xl */}
                         <h2 className="2xl:text-3xl font-medium text-2xl mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
                             <p className="2xl:font-extralight font-light">
-                                kyle ton, a <span className="font-semibold">sophomore</span> at{" "}
-                                <span className="font-semibold">orange coast college</span> studying{" "}
-                                <span className="font-semibold">computer science!</span> i am an 
+                                kyle ton, a <span className="font-semibold">sophomore</span> at
+                                <span className="font-semibold"> orange coast college</span> studying
+                                <span className="font-semibold"> computer science!</span> i am an 
                                 aspiring software engineer with a passion for creating and developing 
                                 full-stack applications.
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
-                                language models and llms. i want to one day specialize in{" "}
-                                <span className="font-semibold">natural language processing</span> and 
+                                language models and llms. i want to one day specialize in
+                                <span className="font-semibold"> natural language processing</span> and 
                                 be able to work on integrating nlp alongside machine learning models.
                             </p>
                             <p className="2xl:font-extralight font-light">
-                                my goal for my career one day is to become a{" "}
-                                <span className="font-semibold">full-stack software engineer!</span> i 
+                                my goal for my career one day is to become a
+                                <span className="font-semibold"> full-stack software engineer!</span> i 
                                 am beginning my full-stack journey building my skillsets and creating 
                                 new projects. i hope one day, i can transition into machine learning 
                                 and ai engineer roles and contribute to the advancement of the 

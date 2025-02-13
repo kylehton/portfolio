@@ -5,9 +5,9 @@ const Socials = () => {
 
     return (
 
-        <main id='socials' className="px-4 lg:px-12 py-8">
-        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
-          <div>
+        <main id='socials' className="px-4 lg:px-16 py-8">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+        <div className='lg:min-w-full'>
             <ScrollMotionWrapper 
               contents={
                 <h1 className="font-medium text-3xl mb-2">socials 
@@ -16,7 +16,7 @@ const Socials = () => {
               }>
             </ScrollMotionWrapper>
 
-            <div className="ml-2 space-y-2">
+            <div className="ml-2 space-y-8">
 
               <ScrollMotionWrapper 
                 contents={

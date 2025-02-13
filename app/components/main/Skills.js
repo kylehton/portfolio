@@ -3,9 +3,9 @@ import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
 const Skills = () => {
 
     return (
-        <main id='skills' className="px-4 lg:px-12 py-4">
-        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
-          <div>
+        <main id='skills' className="px-4 lg:px-16 py-8">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+        <div className='lg:min-w-full'>
           <ScrollMotionWrapper 
             contents={
               <h1 className="font-medium text-3xl mb-2">skills</h1>
