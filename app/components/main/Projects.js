@@ -1,5 +1,6 @@
 
 import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
+import ProjectEntry from "../models/ProjectEntry";
 
 const Projects = () => {
 
@@ -7,35 +8,28 @@ const Projects = () => {
 
         <main id='projects' className="px-4 lg:px-16 py-8">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
-          <div className='lg:min-w-full'>
-            <ScrollMotionWrapper 
-              contents={
-                <h1 className="font-medium text-3xl mb-8">projects</h1>
-              }>
-            </ScrollMotionWrapper>
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <ScrollMotionWrapper 
-                  contents={
-                    <div id='individual-project'>
-                      <div id='div-to-hold-headers'>
-                        <h4 className='font-medium text-[17.5px]'>project in progress</h4>
-                        <div className='text-sm flex flex-col lg:flex-row lg:justify-between lg:items-center'>
-                            <p>incomplete, will be finished by february?</p>
-                            <p className='mr-2 text-xs'></p>
-                        </div>
-                      </div>
-                        <p id='job-summary' className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm">
-
-                        </p>
-                    </div>
-                  }>
-                </ScrollMotionWrapper>
+        <div className='lg:min-w-full'>
+          <ScrollMotionWrapper 
+            contents={
+              <h1 className="font-medium text-3xl mb-8">projects</h1>
+            }>
+          </ScrollMotionWrapper>
+          <div id='all-projects-wrapper'>
+              <ProjectEntry
+                  content={{
+                    title: "stocksense",
+                    subheading: 'next.js, spring boot, postgresql, tailwind css, google oauth2.0, aws s3, docker, vercel, supabase',
+                    description: "a full stack application that displays stock information and stock data visualization. it gathers information based on user input and displays stock numerical data and a chart visualization. using sentiment analysis, it gathers recent related news and articles and analyzes them for a positive/negative rating.",
+                    dates: "feb 2025 - apr 2025",
+                    deployment: "https://stock-sense-client.vercel.app",
+                    github: "https://github.com/kylehton/StockSense",
+                    video: "https://www.youtube.com/watch?v=example"
+                  }}
+                />
+              </div>
               </div>
             </div>
-          </div>
-        </div>
-      </main>
+        </main>
     );
 }
 

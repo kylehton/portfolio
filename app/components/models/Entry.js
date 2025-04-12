@@ -1,21 +1,21 @@
 import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
 
-const EduExpEntry = ({ content }) => {
+const Entry = ({ content }) => {
   return (
-    <div>
+    <div id='entry-wrapper-container'>
       <ScrollMotionWrapper
         contents={
           <div id="individual-entry">
             <div id="div-to-hold-headers">
-              <h4 className="font-medium text-[17.5px]">{content.title}</h4>
+              <h4 className="font-medium text-[18px]">{content.title}</h4>
               <div className="text-sm grid grid-cols-1 lg:grid-cols-2">
-                <p>{content.location}</p>
+                <p>{content.subheading}</p>
                 <p className="lg:text-right text-xs">{content.dates}</p>
               </div>
             </div>
             <p 
               id="job-summary" 
-              className="mb-10 mt-3 ml-2 lg:w-4/5 font-light text-sm whitespace-pre-line"
+              className="mt-3 ml-2 lg:w-4/5 font-light text-sm whitespace-pre-line"
             >
               {content.description}
             </p>
@@ -26,4 +26,4 @@ const EduExpEntry = ({ content }) => {
   );
 };
 
-export default EduExpEntry;
+export default Entry;

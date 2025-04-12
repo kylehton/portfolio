@@ -1,4 +1,4 @@
-import EduExpEntry from "../reusable/EduExpEntry";
+import Entry from "../models/Entry";
 import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
 
 const Experience = () => {
@@ -12,22 +12,22 @@ const Experience = () => {
             }>
           </ScrollMotionWrapper>
           
-          <div id='all-experience-wrapper' className="space-y-8">
+          <div id='all-experience-wrapper' className="space-y-12">
               
-            <EduExpEntry
+            <Entry
                 content={{
                   title: 'software engineering intern',
-                  location: 'trace - garden grove, ca',
+                  subheading: 'trace - garden grove, ca',
                   dates: 'aug 2024 - jan 2025',
                   description: `streamlined camera version tracking by automating python-based version control logging, improving documentation accuracy for 100+ devices. 
                                 reduced manual troubleshooting time by 40% by developing a remote camera control script with paramiko ssh, enabling faster connectivity testing.`
                 }}
             />
 
-            <EduExpEntry
+            <Entry
               content={{
                 title: 'ai engineering intern',
-                location: 'product manager accelerator - remote',
+                subheading: 'product manager accelerator - remote',
                 dates: 'oct 2024 - dec 2024',
                 description: `increased resume keyword relevance by 15% by developing a full-stack resume enhancement application that applied trend analysis and ai-driven keyword optimization.
                               improved resume clarity by 20% by implementing a custom rag-based ai agent that retrieved relevant resume suggestions from proprietary datasets.
@@ -36,20 +36,20 @@ const Experience = () => {
               }}
             />
 
-            <EduExpEntry
+            <Entry
               content={{
                 title: 'ai trainer - language models',
-                location: 'dataannotation - remote [part-time]',
+                subheading: 'dataannotation - remote [part-time]',
                 dates: 'jun 2024 - dec 2024',
                 description: `trained over 200 generative ai small language models (slms) on diverse datasets to boost output relevance.
                               performed code evaluations in multiple languages, refining algorithms to enhance response accuracy and correctness.`
               }}
             />
 
-            <EduExpEntry
+            <Entry
               content={{
                 title: 'ai software engineering fellow',
-                location: 'headstarter ai - remote',
+                subheading: 'headstarter ai - remote',
                 dates: 'jul 2024 - sep 2024',
                 description: `completed hands-on projects applying full-stack development concepts with react, firebase, and next.js, showcasing collaborative coding and ai integration. acquired experience using a variety of apis, such as openai api and stripe api`
               }}
