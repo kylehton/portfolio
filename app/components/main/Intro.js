@@ -44,7 +44,7 @@ const Intro = () => {
                                 i have a large interest in machine learning and ai, particularly in 
                                 language models and llms. i want to one day specialize in
                                 <span className="font-semibold"> natural language processing</span> and 
-                                be able to work on integrating nlp alongside machine learning models.
+                                be able to work on integrating machine learning with software development.
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a

@@ -24,7 +24,10 @@ const Socials = () => {
                     <a href='https://www.linkedin.com/in/kyle-ton/' className='font-normal text-[18px]'>linkedin [kylehton]</a>
                     <br></br>
                     <a href='https://www.github.com/kylehton/' className='font-normal text-[18px]'>github [kylehton]</a>
+                    <br></br>
+                    <a href='' className='font-normal text-[18px]'>devpost [kylehton]</a>
                     </div>
+                    
                 }>
               </ScrollMotionWrapper>
               

@@ -15,10 +15,10 @@ const Skills = () => {
               <ScrollMotionWrapper 
                 contents={
                   <div id='skillset' className="ml-2 font-light text-[15px] space-y-1">
-                    <p><b className='font-semibold'>languages:</b> html/css, javascript, python, java, c++</p>
-                    <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js</p>
-                    <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postman, visual studio code</p>
-                    <p><b className='font-semibold'>libraries:</b> numpy, pandas, matplotlib, tailwind css</p>
+                    <p><b className='font-semibold'>languages:</b> html/css, javascript, python, java, c++, sql</p>
+                    <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js, flask, spring boot</p>
+                    <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postgresql, aws, vercel, docker, postman, visual studio</p>
+                    <p><b className='font-semibold'>libraries:</b> numpy, pandas, matplotlib, tailwind css, material ui, shadcn, framer motion</p>
                   </div>
                 }>
               </ScrollMotionWrapper>         
