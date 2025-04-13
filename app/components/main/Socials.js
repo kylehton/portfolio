@@ -20,12 +20,12 @@ const Socials = () => {
 
               <ScrollMotionWrapper 
                 contents={
-                    <div id='my-social-links' className='text-zinc-500'>
-                    <a href='https://www.linkedin.com/in/kyle-ton/' className='font-normal text-[18px]'>linkedin [kylehton]</a>
+                    <div id='my-social-links' className='font-normal text-[18px] text-zinc-500'>
+                    <a target='_blank' href='https://www.linkedin.com/in/kyle-ton/' >linkedin [kylehton]</a>
                     <br></br>
-                    <a href='https://www.github.com/kylehton/' className='font-normal text-[18px]'>github [kylehton]</a>
+                    <a target='_blank' href='https://www.github.com/kylehton/' >github [kylehton]</a>
                     <br></br>
-                    <a href='' className='font-normal text-[18px]'>devpost [kylehton]</a>
+                    <a target='_blank' href='https://www.devpost.com/kylehton/'>devpost [kylehton]</a>
                     </div>
                     
                 }>

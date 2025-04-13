@@ -10,17 +10,25 @@ const Education = () => {
         <div className='lg:min-w-full'>
           <ScrollMotionWrapper 
             contents={
-              <h1 className="font-medium text-[34px] mb-8">education</h1>
+              <h1 className="font-medium text-[34px] lg:mb-8 mb-4">education</h1>
             }>
           </ScrollMotionWrapper>
           
           <div id='all-education-wrapper' className="space-y-8">
+          <EduExpEntry
+              content={{
+                title: "bachelor's in computer science [waiting for acceptances]",
+                subheading: 'unknown - ca',
+                dates: 'aug 2025 - jun 2027',
+                description: ["relevant coursework: to be determined."]
+              }}>
+            </EduExpEntry>
             <EduExpEntry
               content={{
-                title: "bachelor's in computer science [transferring to 4-year university]",
+                title: "transfers' in computer science [transferring to 4-year university]",
                 subheading: 'orange coast college - costa mesa, ca',
                 dates: 'jun 2023 - aug 2025',
-                description: `relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations.`
+                description: ["relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations."]
               }}>
             </EduExpEntry>
                 

@@ -2,6 +2,11 @@
 
 import React, { useState, useEffect } from 'react';
 
+import { ArrowDownToLine } from 'lucide-react';
+
+import { Button } from '@/components/ui/button';
+import { Arrow } from '@radix-ui/react-menubar';
+
 const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -55,6 +60,12 @@ const Intro = () => {
                                 artificial intelligence sector! please feel free to contact me for 
                                 anything at all!
                             </p>
+                            <a href="/other/Resume_KyleTon.pdf" target='_blank' rel="noopener noreferrer external" download>
+                                <Button className="mt-6 bg-zinc-500 shadow-xl hover:scale-[1.02]">
+                                    <ArrowDownToLine />
+                                    my resume
+                                </Button>
+                            </a>
                         </div>
                     </div>
 
