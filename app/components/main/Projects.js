@@ -6,12 +6,12 @@ const Projects = () => {
 
     return (
 
-        <main id='projects' className="px-4 lg:px-16 py-8">
+        <main id='projects' className="mb-8 px-4 lg:px-16 py-8">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div className='lg:min-w-full'>
           <ScrollMotionWrapper 
             contents={
-              <h1 className="font-medium text-3xl mb-8">projects</h1>
+              <h1 className="font-medium text-[34px] mb-8">projects</h1>
             }>
           </ScrollMotionWrapper>
           <div id='all-projects-wrapper'>

@@ -7,7 +7,7 @@ const Entry = ({ content }) => {
         contents={
           <div id="individual-entry">
             <div id="div-to-hold-headers">
-              <h4 className="font-medium text-[18px]">{content.title}</h4>
+              <h4 className="font-medium text-[19px]">{content.title}</h4>
               <div className="text-sm grid grid-cols-1 lg:grid-cols-2">
                 <p>{content.subheading}</p>
                 <p className="lg:text-right text-xs">{content.dates}</p>
