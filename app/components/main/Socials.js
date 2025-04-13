@@ -10,7 +10,7 @@ const Socials = () => {
         <div className='lg:min-w-full'>
             <ScrollMotionWrapper 
               contents={
-                <h1 className="font-medium text-3xl mb-2">socials 
+                <h1 className="font-medium text-[34px] mb-2">socials 
                   <span className='text-xl font-normal'>&nbsp; [click below]</span>
                 </h1>
               }>
@@ -34,7 +34,7 @@ const Socials = () => {
               <ScrollMotionWrapper 
                 contents={
                   <div className="github-calendar-container prestige-elite">
-                    <h3 className='text-zinc-800 font-semibold text-xl mt-16 mb-6'>my github contributions</h3>
+                    <h3 className='text-zinc-800 font-semibold text-xl mt-20 mb-6'>my github contributions</h3>
                     <div className="text-zinc-700 github-calendar">
                       <GitHubCalendar
                         username="kylehton"

@@ -19,7 +19,7 @@ const NameAndMenu = () => {
                     <h1 className="font-semibold text-2xl lg:text-3xl">kyle ton</h1>
                     <span className="text-xl font-normal mx-4 text-zinc-600">|</span>
                     <span className="mt-1 text-sm font-light text-zinc-500">
-                        student and software engineer
+                        student, software engineer
                     </span>
                 </div>
 

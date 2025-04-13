@@ -5,12 +5,12 @@ import EduExpEntry from "../models/Entry";
 const Education = () => {
 
     return (
-      <main id='education' className="px-4 sm:px-8 lg:px-16 py-8">
+      <main id='education' className="mb-8 px-4 sm:px-8 lg:px-16 py-8">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div className='lg:min-w-full'>
           <ScrollMotionWrapper 
             contents={
-              <h1 className="font-medium text-3xl mb-8">education</h1>
+              <h1 className="font-medium text-[34px] mb-8">education</h1>
             }>
           </ScrollMotionWrapper>
           
