@@ -17,7 +17,7 @@ const Education = () => {
           <div id='all-education-wrapper' className="space-y-8">
           <EduExpEntry
               content={{
-                title: "bachelor's in computer science [waiting for acceptances]",
+                title: "bachelor's in computer science, minoring in data science [waiting for acceptances]",
                 subheading: 'unknown - ca',
                 dates: 'aug 2025 - jun 2027',
                 description: ["relevant coursework: to be determined."]

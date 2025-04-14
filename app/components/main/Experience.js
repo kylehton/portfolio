@@ -13,18 +13,8 @@ const Experience = () => {
           </ScrollMotionWrapper>
           
           <div id='all-experience-wrapper' className="space-y-12">
-              
-            <Entry
-                content={{
-                  title: 'software engineering intern',
-                  subheading: 'trace - garden grove, ca',
-                  dates: 'aug 2024 - jan 2025',
-                  description: ["streamlined camera version tracking by automating python-based version control logging, improving documentation accuracy for 100+ devices.",
-                                "reduced manual troubleshooting time by 40% by developing a remote camera control script with paramiko ssh, enabling faster connectivity testing."]
-                }}
-            />
 
-            <Entry
+          <Entry
               content={{
                 title: 'ai engineering intern',
                 subheading: 'product manager accelerator - remote',
@@ -34,6 +24,16 @@ const Experience = () => {
                               "reduced backend processing time by 30% by configuring celery and redis for asynchronous task handling in a fastapi microservice.",
                               "designed a scalable document storage system by structuring mongodb documents with google id, efficiently managing over 100 stored resumes."]
               }}
+            />
+              
+            <Entry
+                content={{
+                  title: 'software engineering intern',
+                  subheading: 'trace - garden grove, ca',
+                  dates: 'aug 2024 - oct 2024',
+                  description: ["streamlined camera version tracking by automating python-based version control logging, improving documentation accuracy for 100+ devices.",
+                                "reduced manual troubleshooting time by 40% by developing a remote camera control script with paramiko ssh, enabling faster connectivity testing."]
+                }}
             />
 
             <Entry
