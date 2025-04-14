@@ -16,9 +16,14 @@ const ProjectEntry = ({ content }) => {
                         </div>
                         </div>
                         <p 
-                        id="job-summary" 
-                        className="mt-3 ml-2 lg:w-4/5 font-light text-sm whitespace-pre-line">
-                        {content.description}
+                            id="job-summary" 
+                            className="mt-3 ml-2 lg:w-4/5 font-light text-sm whitespace-pre-line">
+                                {content.description.map((item, index) => (
+                                    <p key={index} className="mb-1.5">
+                                    {item}
+                                    </p>
+                                    ))
+                                }
                         </p>
                         <div className='mt-2 font-light text-[17px] text-zinc-700 flex flex-col lg:flex-row justify-end'>
                             <a className="lg:ml-4 ml-2 mb-1" target='_blank' rel='external noopener noreferrer' href={content.video}>[video demo]</a>
