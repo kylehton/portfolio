@@ -10,14 +10,13 @@ const Socials = () => {
         <div className='lg:min-w-full'>
             <ScrollMotionWrapper 
               contents={
-                <h1 className="font-medium text-[34px] mb-2">socials 
-                  <span className='text-xl font-normal'>&nbsp; [click below]</span>
+                <h1 className="font-medium text-[30px] mb-2">socials 
+                  <span className='text-[20px] font-normal'>&nbsp; [click below]</span>
                 </h1>
               }>
             </ScrollMotionWrapper>
 
-            <div className="ml-2 space-y-8">
-
+            <div className="ml-3 space-y-8">
               <ScrollMotionWrapper 
                 contents={
                     <div id='my-social-links' className='font-normal text-[18px] text-zinc-500'>
