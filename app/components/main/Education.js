@@ -10,7 +10,7 @@ const Education = () => {
         <div className='lg:min-w-full'>
           <ScrollMotionWrapper 
             contents={
-              <h1 className="font-medium text-[34px] lg:mb-8 mb-4">education</h1>
+              <h1 className="font-medium text-[32px] lg:mb-6 mb-4">education</h1>
             }>
           </ScrollMotionWrapper>
           

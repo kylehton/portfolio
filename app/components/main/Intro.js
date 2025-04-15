@@ -36,7 +36,7 @@ const Intro = () => {
                 <div className="2xl:mb-56 2xl:mt-12 mb-32 flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* Text content section */}
                     <div className="lg:w-3/5"> {/* Added padding for 2xl */}
-                        <h2 className="2xl:text-3xl font-medium text-[28px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
+                        <h2 className="2xl:text-3xl font-medium text-[32px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
                             <p className="2xl:font-extralight font-light">
                                 kyle ton, a <span className="font-semibold">sophomore</span> at
@@ -77,7 +77,7 @@ const Intro = () => {
                                 alt={`carousel image ${currentImageIndex + 1}`} 
                                 className="w-full h-full object-cover rounded-lg border-2 border-zinc-500"
                             />
-                            <p className="mr-2 mt-2 text-xs text-right font-mono">japan 04.2024</p>
+                            <p className="mr-2 mt-2 text-xs text-right font-mono">canon sd700is - japan 04.2024</p>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import NameAndMenu from './components/main/NameAndMenu';
 import Intro from './components/main/Intro';
+ import AboutMe from './components/main/AboutMe';
 import Education from './components/main/Education';
 import Experience from './components/main/Experience';
 import Projects from './components/main/Projects';
@@ -13,6 +14,7 @@ export default function Home() {
     <div id='all-component-wrapper' className="px-4 lg:px-0 min-h-screen bg-white">
       <NameAndMenu />
           <Intro />
+          <AboutMe />
           <Education />
           <Experience />
           <Projects />
