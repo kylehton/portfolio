@@ -19,7 +19,8 @@ const Projects = () => {
                   content={{
                     title: "stocksense",
                     subheading: 'next.js, spring boot, postgresql, tailwind css, shadcn, google oauth2.0, aws s3, docker, redis (session management), vercel, railway.app',
-                    description: ["a full stack application that displays stock information and stock data visualization. it gathers information based on user input and displays stock numerical data and a chart visualization. using sentiment analysis, it gathers recent related news and articles and analyzes them for a positive/negative rating. the idea came from me trying to get a more holistic understanding of the market to try and keep my roth ira a net positive (unsuccessful so far)",
+                    description: ["a full stack application that displays stock information and stock data visualization. it gathers information based on user input and displays stock numerical data and a chart visualization. using sentiment analysis, it gathers recent related news and articles and analyzes them for a positive/negative rating.", 
+                      "the idea came from me trying to get a more holistic understanding of the market to try and keep my roth ira a net positive (unsuccessful so far)",
                       "MVP deployed version is up! (side note: it is not the prettiest thing in the world, but it works; will be touching up the UI and edge case handling soon)",
                     ],
                     dates: 'feb 2025 - apr 2025',
