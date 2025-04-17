@@ -13,7 +13,7 @@ const Socials = () => {
             <ScrollMotionWrapper 
               contents={
                 <h1 className="font-medium text-[30px] mb-2">socials 
-                  <span className='text-[20px] font-normal'>&nbsp; [@kylehton]</span>
+                  <span className='text-[20px] font-extralight'>&nbsp; [@kylehton]</span>
                 </h1>
               }>
             </ScrollMotionWrapper>

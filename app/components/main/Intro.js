@@ -62,7 +62,7 @@ const Intro = () => {
                                 anything at all!
                             </p>
                             <a href="/other/Resume_KyleTon.pdf" target='_blank' rel="noopener noreferrer external" download>
-                                <Button className="bg-white text-black font-bold py-2 px-4 lg:py-2 lg:px-5 border-2 border-black rounded-md 
+                                <Button className="bg-white text-black font-semibold py-2 px-4 lg:py-2 lg:px-5 border-2 border-black rounded-md 
                                 shadow-[3px_3px_0px_0px_black] hover:shadow-[1px_1px_0px_0px_white] hover:translate-x-[2px] 
                                 hover:translate-y-[2px] mt-6 hover:scale-[1.02] hover:bg-[#E9D7FF] transition-all">
                                     <ArrowDownToLine />
