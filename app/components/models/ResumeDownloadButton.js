@@ -33,8 +33,8 @@ export default function ResumeDownloadButton() {
         setDownloadTriggered(true);
         closeModalTimer = setTimeout(() => {
             setIsOpen(false);
-          }, 3500); // Wait 1.5 seconds after download before closing
-      }, 5500); // Download at 5300ms, before the download message
+          }, 1500); // Wait 1.5 seconds after download before closing
+      }, 8500); // Download at 5300ms, before the download message
     }
     
     return () => {
@@ -56,7 +56,6 @@ export default function ResumeDownloadButton() {
 
     return (
         <div className="font-sans">
-          {/* Anchor Button */}
             <Button onClick={openModal} className="bg-white text-black font-semibold py-2 px-4 lg:py-2 lg:px-5 border-2 border-black rounded-md 
                 shadow-[3px_3px_0px_0px_black] hover:shadow-[1px_1px_0px_0px_white] hover:translate-x-[2px] 
                 hover:translate-y-[2px] mt-6 hover:scale-[1.02] hover:bg-[#E9D7FF] transition-all">
