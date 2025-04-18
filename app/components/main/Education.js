@@ -25,10 +25,18 @@ const Education = () => {
             </EduExpEntry>
             <EduExpEntry
               content={{
-                title: "transfers' in computer science [transferring to 4-year university]",
+                title: "transfers' in computer science [transferred to 4-year university]",
                 subheading: 'orange coast college - costa mesa, ca',
                 dates: 'jun 2023 - aug 2025',
                 description: ["relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations."]
+              }}>
+            </EduExpEntry>
+            <EduExpEntry
+              content={{
+                title: "high school diploma",
+                subheading: 'la quinta high school - westminster, ca',
+                dates: 'sep 2019 - jun 2023',
+                description: ["gpa: 3.93/4.35 | rank: 36/550", "awarded seal of biliteracy in spanish."]
               }}>
             </EduExpEntry>
                 
