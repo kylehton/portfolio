@@ -30,6 +30,7 @@ const Projects = () => {
                     video: "https://www.youtube.com/watch?v=example"
                   }}
                 />
+                
               </div>
               </div>
             </div>

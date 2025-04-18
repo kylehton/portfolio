@@ -28,7 +28,7 @@ const Intro = () => {
 
     return (
         <div id='intro-wrapper'>
-            <main id='biography' className="px-4 pt-12 sm:py-8 md:py-16 sm:mt-2 sm:px-28 lg:px-16">
+            <main id='biography' className="px-4 pt-12 sm:py-8 md:py-12 sm:mt-2 sm:px-28 lg:px-16">
                 <div className="2xl:mb-56 2xl:mt-12 mb-32 flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* Text content section */}
                     <div className="lg:w-3/5"> {/* Added padding for 2xl */}
@@ -61,7 +61,7 @@ const Intro = () => {
                     </div>
 
                     {/* Image section */}
-                    <div className="lg:w-2/5 2xl:w-[45%]">
+                    <div className="mt-6 lg:w-2/5 2xl:w-[45%]">
                         <div className="relative aspect-[4/3] w-full max-w-xl mx-auto">
                             <img 
                                 src={images[currentImageIndex]} 

@@ -7,7 +7,7 @@ const ProjectEntry = ({ content }) => {
         <div id='project-container'>
             <ScrollMotionWrapper
                 contents={
-                    <div id="individual-entry" className="mb-10 border border-zinc-500 shadow-lg rounded-lg p-4">
+                    <div id="individual-entry" className="mb-10 shadow-lg shadow-gray/20 ring-1 ring-black/5 p-6 bg-white rounded-lg p-4">
                         <div id="div-to-hold-headers">
                         <h4 className="font-medium text-[19.5px]">{content.title}</h4>
                         <div className="text-sm flex flex-col lg:flex-row lg:justify-between">
