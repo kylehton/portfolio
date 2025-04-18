@@ -7,15 +7,15 @@ const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const images = [
-        'images/IMG_0076.JPEG',
-        'images/IMG_0028.JPG',
-        'images/IMG_0086.JPEG',
-        'images/IMG_0088.JPG',
-        'images/IMG_0092.JPEG',
-        'images/IMG_0133.JPEG',
-        'images/IMG_0235.JPG',
-        'images/IMG_0219.JPG',
-        'images/IMG_0269.JPEG',
+        'images/intro/IMG_0076.JPEG',
+        'images/intro/IMG_0028.JPG',
+        'images/intro/IMG_0086.JPEG',
+        'images/intro/IMG_0088.JPG',
+        'images/intro/IMG_0092.JPEG',
+        'images/intro/IMG_0133.JPEG',
+        'images/intro/IMG_0235.JPG',
+        'images/intro/IMG_0219.JPG',
+        'images/intro/IMG_0269.JPEG',
     ];
 
     useEffect(() => {
