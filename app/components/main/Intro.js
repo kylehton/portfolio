@@ -1,12 +1,7 @@
 'use client';
-// className="mt-6 bg-zinc-500 shadow-xl hover:scale-[1.02]"
 
 import React, { useState, useEffect } from 'react';
-
-import { ArrowDownToLine } from 'lucide-react';
-
-import { Button } from '@/components/ui/button';
-import { Arrow } from '@radix-ui/react-menubar';
+import ResumeDownloadButton from '../models/ResumeDownloadButton';
 
 const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -61,15 +56,7 @@ const Intro = () => {
                                 artificial intelligence sector! please feel free to contact me for 
                                 anything at all!
                             </p>
-                            <a href="/other/Resume_KyleTon.pdf" target='_blank' rel="noopener noreferrer external" download>
-                                <Button className="bg-white text-black font-semibold py-2 px-4 lg:py-2 lg:px-5 border-2 border-black rounded-md 
-                                shadow-[3px_3px_0px_0px_black] hover:shadow-[1px_1px_0px_0px_white] hover:translate-x-[2px] 
-                                hover:translate-y-[2px] mt-6 hover:scale-[1.02] hover:bg-[#E9D7FF] transition-all">
-                                    <ArrowDownToLine />
-                                    my resume
-                                </Button>
-                            </a>
-
+                        <ResumeDownloadButton />
                         </div>
                     </div>
 
