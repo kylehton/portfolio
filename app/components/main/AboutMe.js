@@ -1,4 +1,5 @@
 import ScrollMotionWrapper from "@/app/motion/ScrollMotionWrapper";
+import { useState } from "react";
 
 const AboutMe = () => {
 
