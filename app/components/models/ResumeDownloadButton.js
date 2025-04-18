@@ -20,6 +20,11 @@ export default function ResumeDownloadButton() {
     setIsOpen(false);
   };
 
+  // Detect if user is on iOS (Safari is weird with downloads)
+  const isIOS = () => {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  };
+
   // Handle the resume download at the right moment
   useEffect(() => {
     let downloadTimer;
@@ -32,7 +37,7 @@ export default function ResumeDownloadButton() {
         downloadResume();
         setDownloadTriggered(true);
         closeModalTimer = setTimeout(() => {
-            setIsOpen(false);
+            closeModal();
           }, 1500); // Wait 1.5 seconds after download before closing
       }, 8500); // Download at 5300ms, before the download message
     }
@@ -43,13 +48,21 @@ export default function ResumeDownloadButton() {
   }, [isOpen, downloadTriggered]);
   
   const downloadResume = () => {
-    // Create and trigger download link
-    const link = document.createElement('a');
-    link.href = '/other/Resume_KyleTon.pdf'; // Update with your actual resume path
-    link.download = 'Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const resumePath = '/other/Resume_KyleTon.pdf';
+    if (isIOS()) {
+      // For iOS devices, open in a new tab
+      window.open(resumePath, '_blank');
+      console.log('Resume opened in new tab for iOS!');
+    } else {
+      // For other devices, use the download method
+      const link = document.createElement('a');
+      link.href = resumePath;
+      link.download = 'Resume_KyleTon.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      console.log('Resume download triggered!');
+    }
     
     console.log('Resume download triggered!');
   };
