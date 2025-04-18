@@ -28,10 +28,9 @@ const Intro = () => {
 
     return (
         <div id='intro-wrapper'>
-            <main id='biography' className="px-4 pt-12 sm:py-8 md:py-12 sm:mt-2 sm:px-28 lg:px-16">
-                <div className="2xl:mb-56 2xl:mt-12 mb-32 flex flex-col lg:flex-row gap-8 lg:gap-16">
-                    {/* Text content section */}
-                    <div className="lg:w-3/5"> {/* Added padding for 2xl */}
+            <main id='biography' className="px-4 pt-10 sm:py-4 md:py-6 sm:mt-2 sm:px-28 lg:px-16">
+                <div className="mb-10 flex flex-col lg:flex-row gap-8 lg:gap-16">
+                    <div className="lg:w-3/5"> 
                         <h2 className="2xl:text-3xl font-medium text-[32px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
                             <p className="2xl:font-extralight font-light">
@@ -43,9 +42,10 @@ const Intro = () => {
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
-                                language models and llms. i want to one day specialize in
+                                language models and llms. i hope, one day, to specialize in
                                 <span className="font-semibold"> natural language processing</span> and 
-                                be able to work on integrating machine learning with software development.
+                                be able to work on integrating machine learning with software development,
+                                or even directly contribute to the advancement of the field itself!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
