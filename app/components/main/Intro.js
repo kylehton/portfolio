@@ -29,7 +29,7 @@ const Intro = () => {
     return (
         <div id='intro-wrapper'>
             <main id='biography' className="px-4 pt-10 sm:py-4 md:py-6 sm:mt-2 sm:px-28 lg:px-16">
-                <div className="mb-10 flex flex-col lg:flex-row gap-8 lg:gap-16">
+                <div className="2xl:ml-6 mb-10 flex flex-col lg:flex-row gap-8 lg:gap-16">
                     <div className="lg:w-3/5"> 
                         <h2 className="2xl:text-3xl font-medium text-[32px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
