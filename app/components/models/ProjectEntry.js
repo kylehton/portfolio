@@ -1,4 +1,4 @@
-import Entry from "../models/Entry";
+import Entry from "./Entry";
 import ScrollMotionWrapper from "@/app/motion/ScrollMotionWrapper";
 
 const ProjectEntry = ({ content }) => {

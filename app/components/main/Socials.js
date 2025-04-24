@@ -1,6 +1,6 @@
 import GitHubCalendar from "react-github-calendar";
 import ScrollMotionWrapper from "../../motion/ScrollMotionWrapper";
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/resumebutton';
 
 
 const Socials = () => {

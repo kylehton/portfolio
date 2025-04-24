@@ -1,6 +1,6 @@
 import { AnimatedSpan, Terminal, TypingAnimation } from '@/components/magicui/terminal';
 
-  export function EmailTerminal() {
+  export function ResumeTerminal() {
     return (
       <Terminal className='w-full h-full lg:w-[600px] h-[320px]'>
         <TypingAnimation className='text-sm lg:text-base mt-2'>&gt; brew install resume</TypingAnimation>
