@@ -13,9 +13,14 @@ export default function BookForm() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+        const title = bookTitle.trim();
+        if (!bookTitle) {
+            alert("Please enter a book title.");
+            return;
+        }
+        setBookTitle("");
         const templateParams = {
-        book_title: bookTitle,
+        book_title: title,
         };
 
         try {
@@ -25,7 +30,6 @@ export default function BookForm() {
             templateParams,
             apiKey // my emailjs api key
         );
-        setBookTitle("");
         alert("Thanks for the recommendation!");
         } catch (error) {
         console.error("Email send failed:", error);
