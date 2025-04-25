@@ -16,6 +16,7 @@ import {
 import PictureCarousel from "./pictureCarousel";
 import { useState } from "react";
 import BookRecForm from "./BookRecForm";
+import Image from "next/image";
 
 export function AboutTabs() {    
 
@@ -106,10 +107,12 @@ export function AboutTabs() {
           </CardHeader>
           <CardContent className="space-y-8">
             <div className="flex flex-col items-center text-center space-y-2 w-full">
-                    <img 
+                    <Image 
                         src={bookContent[0]}
                         alt={"image here"}
                         className="w-[75%] lg:w-[25%] h-auto object-cover rounded-lg border-2 border-zinc-500"
+                        width="250"
+                        height="300"
                     />
                 <BookRecForm />
             </div>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import ResumeDownloadButton from '../models/ResumeDownloadButton';
+import Image from 'next/image';
 
 const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -63,10 +64,12 @@ const Intro = () => {
                     {/* Image section */}
                     <div className="mt-6 lg:w-2/5 2xl:w-[45%]">
                         <div className="relative aspect-[4/3] w-full max-w-xl mx-auto">
-                            <img 
+                            <Image 
                                 src={images[currentImageIndex]} 
                                 alt={`carousel image ${currentImageIndex + 1}`} 
                                 className="w-full h-full object-cover rounded-lg border-2 border-zinc-500"
+                                width={525}
+                                height={400}
                             />
                             <p className="mr-2 mt-2 text-xs text-right font-mono">canon sd700is - japan 04.2024</p>
                         </div>

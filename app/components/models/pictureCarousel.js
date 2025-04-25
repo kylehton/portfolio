@@ -1,4 +1,5 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import Image from 'next/image';
 
 export default function PictureCarousel({ images, picwidth }) {
 
@@ -8,10 +9,12 @@ export default function PictureCarousel({ images, picwidth }) {
             <CarouselContent>
                 {images.map((child, index) => (
                     <CarouselItem key={index} className="basis-full">
-                        <img 
+                        <Image 
                             src={child} 
                             alt={"image here"}
                             className="w-full h-full object-cover rounded-lg border-2 border-zinc-500"
+                            width="250"
+                            height="300"
                         />
                     </CarouselItem>
                 ))}
