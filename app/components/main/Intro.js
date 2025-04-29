@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import ResumeDownloadButton from '../models/ResumeDownloadButton';
-import Image from 'next/image';
 
 const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -39,20 +38,22 @@ const Intro = () => {
                                 <span className="font-semibold"> orange coast college</span> studying
                                 <span className="font-semibold"> computer science!</span> i am an 
                                 aspiring software engineer with a passion for creating and developing 
-                                full-stack applications.
+                                full-stack applications, with some cloud computing and machine learning 
+                                integration.
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
-                                language models and llms. i hope, one day, to specialize in
-                                <span className="font-semibold"> natural language processing</span> and 
-                                be able to work on integrating machine learning with software development,
+                                language models <span className="font-semibold"> natural language processing</span> 
+                                and be able to work on integrating machine learning with software development,
                                 or even directly contribute to the advancement of the field itself!
+                                i am getting started with machine learning models right now, teaching myself
+                                the basics of machine learning and ai, and i hope to apply this towards 
+                                cool projects in the future!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
-                                <span className="font-semibold"> full-stack software engineer!</span> i 
-                                am beginning my full-stack journey building my skillsets and creating 
-                                new projects. i hope one day, i can transition into machine learning 
+                                <span className="font-semibold"> full-stack software engineer! </span> 
+                                perhaps one day, i will try to transition into machine learning 
                                 and ai engineer roles and contribute to the advancement of the 
                                 artificial intelligence sector! please feel free to contact me for 
                                 anything at all!
@@ -64,12 +65,11 @@ const Intro = () => {
                     {/* Image section */}
                     <div className="mt-6 lg:w-2/5 2xl:w-[45%]">
                         <div className="relative aspect-[4/3] w-full max-w-xl mx-auto">
-                            <Image 
+                            <img 
                                 src={images[currentImageIndex]} 
                                 alt={`carousel image ${currentImageIndex + 1}`} 
                                 className="w-full h-full object-cover rounded-lg border-2 border-zinc-500"
-                                width={525}
-                                height={400}
+                                
                             />
                             <p className="mr-2 mt-2 text-xs text-right font-mono">canon sd700is - japan 04.2024</p>
                         </div>
