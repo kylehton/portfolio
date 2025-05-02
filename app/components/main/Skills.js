@@ -18,7 +18,7 @@ const Skills = () => {
                     <p><b className='font-semibold'>languages:</b> html/css, javascript, python, java, c++, sql</p>
                     <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js, flask, spring boot</p>
                     <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postgresql, aws, vercel, docker, redis, postman, visual studio</p>
-                    <p><b className='font-semibold'>libraries:</b> numpy, pandas, matplotlib, tailwind css, material ui, shadcn, framer motion</p>
+                    <p><b className='font-semibold'>machine learning:</b> numpy, pandas, matplotlib, seaborn, scikit-learn</p>
                   </div>
                 }>
               </ScrollMotionWrapper>         
