@@ -17,6 +17,20 @@ const Projects = () => {
           <div id='all-projects-wrapper'>
               <ProjectEntry
                   content={{
+                    title: "e-commerce spending prediction model",
+                    subheading: 'scikit-learn, pandas, numpy, matplotlib, seaborn, jupyter notebook',
+                    description: [
+                      "a linear regression model that predicts the spending of a user based on specific features, such as their time spent on the website",
+                      "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set"
+                    ],
+                    dates: 'apr 2025',
+                    deployment: "",
+                    github: "https://github.com/kylehton/ml-learning/tree/main/linear-regression",
+                    video: ""
+                  }}
+              />
+              <ProjectEntry
+                  content={{
                     title: "stocksense",
                     subheading: 'next.js, spring boot, postgresql, tailwind css, shadcn, google oauth2.0, aws s3, docker, redis, vercel, railway.app',
                     description: [
@@ -29,7 +43,7 @@ const Projects = () => {
                     github: "https://github.com/kylehton/StockSense",
                     video: "https://www.youtube.com/watch?v=example"
                   }}
-                />
+              />
                 
               </div>
               </div>

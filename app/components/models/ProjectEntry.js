@@ -1,4 +1,3 @@
-import Entry from "./Entry";
 import ScrollMotionWrapper from "@/app/motion/ScrollMotionWrapper";
 
 const ProjectEntry = ({ content }) => {
@@ -7,7 +6,7 @@ const ProjectEntry = ({ content }) => {
         <div id='project-container'>
             <ScrollMotionWrapper
                 contents={
-                    <div id="individual-entry" className="mb-10 shadow-lg shadow-gray/20 ring-1 ring-black/5 p-6 bg-white rounded-lg p-4">
+                    <div id="individual-entry" className="mb-10 shadow-md shadow-gray/20 ring-1 ring-black/5 p-6 bg-white rounded-lg p-4">
                         <div id="div-to-hold-headers">
                         <h4 className="font-medium text-[19.5px]">{content.title}</h4>
                         <div className="text-sm flex flex-col lg:flex-row lg:justify-between">
@@ -26,24 +25,35 @@ const ProjectEntry = ({ content }) => {
                                 }
                         </div>
                         <div className='mr-2 mt-4 lg:mt-2 font-light text-[17px] text-zinc-700 flex flex-col lg:flex-row justify-end'>
-                            <a className="lg:ml-4 ml-2 mb-3 lg:mb-1" target='_blank' rel='external noopener noreferrer' href={content.video}>
+                            {content.video && (
+                                <a className="lg:ml-4 ml-2 mb-3 lg:mb-1" target='_blank' rel='external noopener noreferrer' href={content.video}>
+                                    <button className="inline-block px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-100 border rounded-md 
+                                    shadow-md ease-out hover:bg-gray-200">
+                                        video demo
+                                    </button>
+                                </a>
+                                )
+                            }
+
+                            {content.deployment && (
+                                <a className="lg:ml-4 ml-2 mb-3 lg:mb-1" target='_blank' rel='external noopener noreferrer' href={content.deployment}>
                                 <button className="inline-block px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-100 border rounded-md 
-                                shadow-md ease-out hover:bg-gray-200">
-                                    video demo
-                                </button>
-                            </a>
-                            <a className="lg:ml-4 ml-2 mb-3 lg:mb-1" target='_blank' rel='external noopener noreferrer' href={content.deployment}>
-                            <button className="inline-block px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-100 border rounded-md 
-                                shadow-md ease-out hover:bg-gray-200">
-                                    live deployment
-                                </button>
-                            </a>
-                            <a className="lg:ml-4 ml-2 mb-3 lg:mb-1" target='_blank' rel='external noopener noreferrer' href={content.github}>
-                            <button className="inline-block px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-100 border rounded-md 
-                                shadow-md ease-out hover:bg-gray-200">
-                                    github
-                                </button>
-                            </a>
+                                    shadow-md ease-out hover:bg-gray-200">
+                                        live deployment
+                                    </button>
+                                </a>
+                                )
+                            }
+
+                            {content.github && (
+                                <a className="lg:ml-4 ml-2 mb-3 lg:mb-1" target='_blank' rel='external noopener noreferrer' href={content.github}>
+                                <button className="inline-block px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-100 border rounded-md 
+                                    shadow-md ease-out hover:bg-gray-200">
+                                        github
+                                    </button>
+                                </a>
+                                )
+                            }
                         </div>
                     </div>
                 }
