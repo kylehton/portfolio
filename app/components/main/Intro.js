@@ -43,7 +43,7 @@ const Intro = () => {
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
-                                language models <span className="font-semibold"> natural language processing</span> 
+                                language models <span className="font-semibold"> natural language processing </span> 
                                 and be able to work on integrating machine learning with software development,
                                 or even directly contribute to the advancement of the field itself!
                                 i am getting started with machine learning models right now, teaching myself
