@@ -48,7 +48,7 @@ export default function ResumeDownloadButton() {
   }, [isOpen, downloadTriggered]);
   
   const downloadResume = () => {
-    const resumePath = '/other/Resume_KyleTon.pdf';
+    const resumePath = '/resume/Resume_KyleTon.pdf';
     if (isIOS()) {
       // For iOS devices, open in a new tab
       window.open(resumePath, '_blank');

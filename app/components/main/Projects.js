@@ -18,10 +18,11 @@ const Projects = () => {
               <ProjectEntry
                   content={{
                     title: "e-commerce spending prediction model",
-                    subheading: 'scikit-learn, pandas, numpy, matplotlib, seaborn, jupyter notebook',
+                    subheading: 'python, scikit-learn, pandas, numpy, matplotlib, seaborn, jupyter notebook',
                     description: [
                       "a linear regression model that predicts the spending of a user based on specific features, such as their time spent on the website",
-                      "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set"
+                      "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set",
+                      "implemented stochasitc gradient descent to optimize the model's parameters, tested using cross-validation",
                     ],
                     dates: 'apr 2025',
                     deployment: "",
