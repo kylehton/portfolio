@@ -19,7 +19,9 @@ const Experience = () => {
                 title: 'ai engineering intern',
                 subheading: 'product manager accelerator - remote',
                 dates: 'oct 2024 - dec 2024',
-                description: ["developed a full-stack application to enhance resumes, using an llm pipeline to analyze and increase industry-specific keywords and relevance"]
+                description: ["i developed a full-stack application to enhance resumes, using an llm pipeline to analyze and increase industry-specific keywords and relevance.",
+                  "i also implemented a mongodb database to store and manage resumes, storing over 100 resumes and allowing for efficient retrieval and analysis."
+                ]
               }}
             />
               
@@ -28,7 +30,9 @@ const Experience = () => {
                   title: 'software engineering intern',
                   subheading: 'trace - garden grove, ca',
                   dates: 'aug 2024 - oct 2024',
-                  description: ["created automated scripts for camera testing, for version control and calibration, increasing efficiency and accuracy of quality assurance and documentation"]
+                  description: ["i created automated scripts for camera testing, for version control and calibration, increasing efficiency and accuracy of quality assurance and documentation.",
+                    "using baud rates of camera modules, i diagnosed issues in the pre-release module software updates, leading to a more efficient and reliable update-integration process."
+                  ]
                 }}
             />
 
@@ -37,7 +41,7 @@ const Experience = () => {
                 title: 'ai trainer - language models',
                 subheading: 'dataannotation - remote [part-time]',
                 dates: 'jun 2024 - dec 2024',
-                description: ["evaluated and improved the accuracy of language model responses in various subjects, including various programming languages, validating performance and consistency"]
+                description: ["i evaluated and improved the accuracy of language model responses in various subjects, including various programming languages, validating performance and consistency."]
               }}
             />
 
@@ -46,7 +50,9 @@ const Experience = () => {
                 title: 'ai software engineering fellow',
                 subheading: 'headstarter ai - remote',
                 dates: 'jul 2024 - sep 2024',
-                description: ["worked in a group setting, creating full-stack applications with generative ai applications, learning and using various apis and technologies"]
+                description: ["i worked in a group setting, creating full-stack applications with generative ai applications, learning and using various apis and technologies.",
+                  "also participated in a hackathon, creating a natural language processing application, parsing and analyzing data from a csv file and classifying it based on sentiment, entering it into a postgresql database."
+                ]
               }}
             />
           </div>
