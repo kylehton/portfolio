@@ -42,7 +42,7 @@ const Projects = () => {
                     dates: 'feb 2025 - apr 2025',
                     deployment: "https://stock-sense-client.vercel.app",
                     github: "https://github.com/kylehton/StockSense",
-                    video: "https://www.youtube.com/watch?v=example"
+                    video: "https://youtu.be/O8MnoRQEqNk"
                   }}
               />
                 
