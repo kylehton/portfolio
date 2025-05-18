@@ -15,18 +15,34 @@ const Projects = () => {
             }>
           </ScrollMotionWrapper>
           <div id='all-projects-wrapper'>
+            <div className="flex flex-col gap-8">
               <ProjectEntry
                   content={{
-                    title: "e-commerce spending prediction model",
-                    subheading: 'python, scikit-learn, pandas, numpy, matplotlib, seaborn, jupyter notebook',
+                    title: "matchpointai",
+                    subheading: 'python, react, tailwind css, scikit-learn, pandas, numpy, jupyter notebook',
                     description: [
-                      "a linear regression model that predicts the spending of a user based on specific features, such as their time spent on the website",
-                      "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set",
-                      "implemented stochasitc gradient descent to optimize the model's parameters, tested using cross-validation",
+                      "project is still under construction",
+                      "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
+                      "inspired by me playing tennis and wanting to know whether prime federer would beat alcaraz and/or sinner",
+                    ],
+                    dates: 'jun 2025 - present',
+                    deployment: "",
+                    github: "https://github.com/kylehton/MatchPointAI",
+                    video: ""
+                  }}
+              /></div>
+              <ProjectEntry
+                  content={{
+                    title: "git-lint",
+                    subheading: 'python, fastapi, github webhooks/actions, openai api, docker',
+                    description: [
+                      "a little play on eslint, but for github",
+                      "an automated fastapi service that reviews github pull requests and analyzes the code for security vulnerabilities, performance issues, and code quality, using gpt-4o-mini",
+                      "currently linked to my bigger project repos",
                     ],
                     dates: 'apr 2025',
                     deployment: "",
-                    github: "https://github.com/kylehton/ml-learning/tree/main/linear-regression",
+                    github: "https://github.com/kylehton/GitLint",
                     video: ""
                   }}
               />
