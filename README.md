@@ -7,8 +7,7 @@ Please feel free to visit the public deployed website at:
 
 Feel free to reach out to me through my socials for any reason at all! 
 
-I used:
-
+**Tech Stack**
 Next.js for React JS Components
 TailwindCSS for styling
 Framer Motion for animations
