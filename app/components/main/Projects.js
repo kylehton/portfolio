@@ -25,22 +25,23 @@ const Projects = () => {
                       "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
                       "inspired by me playing tennis and wanting to know whether prime federer would beat alcaraz and/or sinner",
                     ],
-                    dates: 'jun 2025 - present',
+                    dates: 'may 2025 - present',
                     deployment: "",
                     github: "https://github.com/kylehton/MatchPointAI",
                     video: ""
                   }}
-              /></div>
+              />
+              </div>
               <ProjectEntry
                   content={{
                     title: "git-lint",
-                    subheading: 'python, fastapi, github webhooks/actions, openai api, docker',
+                    subheading: 'python, fastapi, github webhooks, openai api, docker, aws ec2',
                     description: [
-                      "a little play on eslint, but for github",
+                      "a little play on eslint, but for github + syntax review + security vulnerability analysis",
                       "an automated fastapi service that reviews github pull requests and analyzes the code for security vulnerabilities, performance issues, and code quality, using gpt-4o-mini",
-                      "currently linked to my bigger project repos",
+                      "currently linked to my deployed project repos",
                     ],
-                    dates: 'apr 2025',
+                    dates: 'may 2025',
                     deployment: "",
                     github: "https://github.com/kylehton/GitLint",
                     video: ""
