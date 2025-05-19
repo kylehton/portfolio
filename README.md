@@ -12,4 +12,4 @@ Next.js for React.js Components
 TailwindCSS, ShadCN, Magic UI for styling
 Framer Motion for animations
 
-change 2 here, testing if diff is loaded correctly
+
