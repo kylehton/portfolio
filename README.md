@@ -8,8 +8,8 @@ Please feel free to visit the public deployed website at:
 Feel free to reach out to me through my socials for any reason at all! 
 
 **Tech Stack**
-Next.js for React JS Components
-TailwindCSS for styling
+Next.js for React.js Components
+TailwindCSS, ShadCN, Magic UI for styling
 Framer Motion for animations
 
-change 1 here, testing
+change 2 here, testing if diff is loaded correctly
