@@ -54,8 +54,8 @@ const Socials = () => {
                       <GitHubCalendar
                         username="kylehton"
                         theme={{
-                          dark: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"], // 5 colors
-                          light: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"] // 5 colors
+                          dark: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"], 
+                          light: ["#d1d5db", "#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7"]
                         }}
                       />
                     </div>
