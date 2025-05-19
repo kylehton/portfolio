@@ -11,3 +11,5 @@ Feel free to reach out to me through my socials for any reason at all!
 Next.js for React JS Components
 TailwindCSS for styling
 Framer Motion for animations
+
+change 1 here, testing
