@@ -12,3 +12,5 @@ I used:
 Next.js for React JS Components
 TailwindCSS for styling
 Framer Motion for animations
+
+testing for comment upload now
