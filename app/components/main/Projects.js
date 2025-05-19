@@ -35,15 +35,15 @@ const Projects = () => {
               <ProjectEntry
                   content={{
                     title: "git-lint",
-                    subheading: 'python, fastapi, github webhooks, openai api (gpt-4o-mini + text-embedding-3-small), chroma db, docker, aws ec2',
+                    subheading: 'python, fastapi, github webhooks, openai api (gpt-4o-mini + text-embedding-3-small), pinecone db, docker, aws ec2',
                     description: [
                       "a little play on eslint, but for github code diffs + syntax review + security vulnerability analysis",
                       "an automated fastapi service that reviews github pull requests and analyzes the code for security vulnerabilities, performance issues, and code quality, using gpt-4o-mini",
-                      "implemented rag with chroma db and openai text-embedding-3-small to provide context to model for better code reviews",
+                      "implemented rag with pinecone db and openai text-embedding-3-small, vectorizing codebase of my repos to provide context to model for better code reviews",
                     ],
                     dates: 'may 2025',
                     deployment: "",
-                    github: "https://github.com/kylehton/GitLint",
+                    github: "https://github.com/kylehton/Git-Lint",
                     video: ""
                   }}
               />
@@ -54,7 +54,7 @@ const Projects = () => {
                     description: [
                       "a full stack application that displays stock information and stock data visualization. it gathers information based on user input and displays stock numerical data and a chart visualization. using sentiment analysis, it gathers recent related news and articles and analyzes them for a positive/negative rating.", 
                       "the idea came from me trying to get a more holistic understanding of the market to try and keep my roth ira a net positive (unsuccessful so far)",
-                      "MVP deployed version is up! (side note: it is not the prettiest thing in the world, but it works; will be touching up the UI and edge case handling soon)",
+                      "MVP deployed version is up!",
                     ],
                     dates: 'feb 2025 - apr 2025',
                     deployment: "https://stock-sense-client.vercel.app",
