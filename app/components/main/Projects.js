@@ -43,7 +43,7 @@ const Projects = () => {
                     ],
                     dates: 'may 2025',
                     deployment: "",
-                    github: "https://github.com/kylehton/GitLint",
+                    github: "https://github.com/kylehton/Git-Lint",
                     video: ""
                   }}
               />
@@ -54,7 +54,7 @@ const Projects = () => {
                     description: [
                       "a full stack application that displays stock information and stock data visualization. it gathers information based on user input and displays stock numerical data and a chart visualization. using sentiment analysis, it gathers recent related news and articles and analyzes them for a positive/negative rating.", 
                       "the idea came from me trying to get a more holistic understanding of the market to try and keep my roth ira a net positive (unsuccessful so far)",
-                      "MVP deployed version is up! (side note: it is not the prettiest thing in the world, but it works; will be touching up the UI and edge case handling soon)",
+                      "MVP deployed version is up!",
                     ],
                     dates: 'feb 2025 - apr 2025',
                     deployment: "https://stock-sense-client.vercel.app",
