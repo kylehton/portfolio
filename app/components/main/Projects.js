@@ -23,6 +23,7 @@ const Projects = () => {
                     description: [
                       "project is still under construction",
                       "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
+                      "feature engineered custom player stats using historical tennis match data",
                       "inspired by me playing tennis and wanting to know whether prime federer would beat alcaraz and/or sinner",
                       "IGNORE: test change here"
                     ],
@@ -56,7 +57,7 @@ const Projects = () => {
                     description: [
                       "a linear regression model that predicts the spending of a user based on specific features, such as their time spent on the website",
                       "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set",
-                      "implemented stochasitc gradient descent to optimize the model's parameters, tested using cross-validation",
+                      "implemented stochastic gradient descent to optimize the model's parameters, tested using cross-validation",
                     ],
                     dates: 'apr 2025',
                     deployment: "",
