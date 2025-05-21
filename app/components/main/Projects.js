@@ -24,6 +24,7 @@ const Projects = () => {
                       "project is still under construction",
                       "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
                       "inspired by me playing tennis and wanting to know whether prime federer would beat alcaraz and/or sinner",
+                      "IGNORE: test change here"
                     ],
                     dates: 'may 2025 - present',
                     deployment: "",
