@@ -20,7 +20,7 @@ const Education = () => {
                 title: "bachelor's in computer science",
                 subheading: 'california state university, fullerton - fullerton, ca',
                 dates: 'aug 2025 - jun 2027',
-                description: [""]
+                description: ["possibly minoring in data science"]
               }}>
             </EduExpEntry>
             <EduExpEntry
