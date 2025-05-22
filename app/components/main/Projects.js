@@ -58,6 +58,7 @@ const Projects = () => {
                       "a linear regression model that predicts the spending of a user based on specific features, such as their time spent on the website",
                       "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set",
                       "implemented stochastic gradient descent to optimize the model's parameters, tested using cross-validation",
+                      "test change here"
                     ],
                     dates: 'apr 2025',
                     deployment: "",
