@@ -25,7 +25,6 @@ const Projects = () => {
                       "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
                       "feature engineered custom player stats using historical tennis match data",
                       "inspired by me playing tennis and wanting to know whether prime federer would beat alcaraz and/or sinner",
-                      "IGNORE: test change here"
                     ],
                     dates: 'may 2025 - present',
                     deployment: "",
@@ -47,22 +46,6 @@ const Projects = () => {
                     dates: 'may 2025',
                     deployment: "",
                     github: "https://github.com/kylehton/Git-Lint",
-                    video: ""
-                  }}
-              />
-              <ProjectEntry
-                  content={{
-                    title: "e-commerce spending prediction model",
-                    subheading: 'python, scikit-learn, pandas, numpy, matplotlib, seaborn, jupyter notebook',
-                    description: [
-                      "a linear regression model that predicts the spending of a user based on specific features, such as their time spent on the website",
-                      "trained on a kaggle dataset, achieving an r2 score of 0.984 (98.4% accuracy) on the test set",
-                      "implemented stochastic gradient descent to optimize the model's parameters, tested using cross-validation",
-                      "test change here - v10"
-                    ],
-                    dates: 'apr 2025',
-                    deployment: "",
-                    github: "https://github.com/kylehton/ml-learning/tree/main/linear-regression",
                     video: ""
                   }}
               />
