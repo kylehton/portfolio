@@ -41,7 +41,7 @@ const Projects = () => {
                       "a little play on eslint, but for github code diffs + syntax review + security vulnerability analysis",
                       "an automated fastapi service that reviews github pull requests and analyzes the code for security vulnerabilities, performance issues, and code quality, using gpt-4o-mini",
                       "also auto-updates embeddings with changes from the diffs",
-                      "implemented rag with pinecone db and openai text-embedding-3-small to provide context to model for better code reviews, with codebase embeddings stored in s3",
+                      "implemented rag with pinecone db and openai text-embedding-3-small to provide context to model for better code reviews, with codebase embedding hashes stored in s3 for validation",
                     ],
                     dates: 'may 2025',
                     deployment: "",
