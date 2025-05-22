@@ -19,7 +19,7 @@ const Projects = () => {
               <ProjectEntry
                   content={{
                     title: "matchpointai",
-                    subheading: 'python, react, tailwind css, scikit-learn, pandas, numpy, jupyter notebook',
+                    subheading: 'python, react, tailwind css, scikit-learn, seaborn, pandas, numpy, jupyter notebook',
                     description: [
                       "project is still under construction",
                       "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
