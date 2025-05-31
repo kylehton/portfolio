@@ -36,7 +36,7 @@ const Projects = () => {
               <ProjectEntry
                   content={{
                     title: "git-lint",
-                    subheading: 'python, fastapi, github webhooks, openai api (gpt-4o-mini + text-embedding-3-small), pinecone db, docker, aws ec2 + s3',
+                    subheading: 'python, fastapi, github webhooks, openai api (gpt-4o-mini + text-embedding-3-small), pinecone db, docker, aws lambda + s3',
                     description: [
                       "a little play on eslint, but for github code diffs + syntax review + security vulnerability analysis",
                       "an automated fastapi service that reviews github pull requests and analyzes the code for security vulnerabilities, performance issues, and code quality, using gpt-4o-mini",
