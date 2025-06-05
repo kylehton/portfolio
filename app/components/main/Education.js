@@ -17,10 +17,10 @@ const Education = () => {
           <div id='all-education-wrapper' className="space-y-8">
           <EduExpEntry
               content={{
-                title: "bachelor's in computer science",
-                subheading: 'california state university, fullerton - fullerton, ca',
+                title: "bachelor's in mathematics and computer science",
+                subheading: 'university of california, san diego - la jolla, ca',
                 dates: 'aug 2025 - jun 2027',
-                description: ["possibly minoring in data science"]
+                description: ["possibly minoring in data science or artificial intelligence"]
               }}>
             </EduExpEntry>
             <EduExpEntry
