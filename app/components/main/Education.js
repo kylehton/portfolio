@@ -25,7 +25,7 @@ const Education = () => {
             </EduExpEntry>
             <EduExpEntry
               content={{
-                title: "transfers' in computer science [transferred to 4-year university]",
+                title: "transfers' in computer science",
                 subheading: 'orange coast college - costa mesa, ca',
                 dates: 'jun 2023 - aug 2025',
                 description: ["relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations."]
