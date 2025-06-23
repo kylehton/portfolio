@@ -16,6 +16,16 @@ const Experience = () => {
 
           <Entry
               content={{
+                title: 'full-stack software engineering intern',
+                subheading: 'forourlastnames - remote',
+                dates: 'jun 2025 - present',
+                description: ["working on initial launch of product and AWS hosting, and integrating a custom AI chatbot for ease of user experience"
+                ]
+              }}
+            />
+
+          <Entry
+              content={{
                 title: 'ai engineering intern',
                 subheading: 'product manager accelerator - remote',
                 dates: 'oct 2024 - dec 2024',

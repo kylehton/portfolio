@@ -35,15 +35,16 @@ const Projects = () => {
               </div>
               <ProjectEntry
                   content={{
-                    title: "git-lint",
+                    title: "git-lint v2",
                     subheading: 'python, fastapi, github webhooks, openai api (gpt-4o-mini + text-embedding-3-small), pinecone db, docker, aws lambda + s3',
                     description: [
                       "a little play on eslint, but for github code diffs + syntax review + security vulnerability analysis",
-                      "an automated fastapi service that reviews github pull requests and analyzes the code for security vulnerabilities, performance issues, and code quality, using gpt-4o-mini",
+                      "an openai agent system that uses gpt-4o-mini to review github code diffs and provide a code review, hosted on fastapi",
                       "also auto-updates embeddings with changes from the diffs",
                       "implemented rag with pinecone db and openai text-embedding-3-small to provide context to model for better code reviews, with codebase embedding hashes stored in s3 for validation",
+                      "version 1 upgraded to v2, Chat Completions API -> OpenAI Agent SDK + Assistants API"
                     ],
-                    dates: 'may 2025',
+                    dates: 'may 2025 - jun 2025',
                     deployment: "",
                     github: "https://github.com/kylehton/Git-Lint",
                     video: ""
