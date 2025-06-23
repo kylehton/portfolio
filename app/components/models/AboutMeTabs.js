@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import {
   Card,
   CardContent,
@@ -14,7 +13,6 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 import PictureCarousel from "./pictureCarousel";
-import { useState } from "react";
 import BookRecForm from "./BookRecForm";
 import Image from "next/image";
 
@@ -22,6 +20,7 @@ export function AboutTabs() {
 
     // arrays to hold file names for pics
     const personalContent = [
+        "/images/aboutme/personal/6-18-25-photobooth.jpeg",
         "/images/aboutme/personal/burlington.jpeg",
         "/images/aboutme/personal/christmas.jpeg",
         "/images/aboutme/personal/famjapan.jpeg",

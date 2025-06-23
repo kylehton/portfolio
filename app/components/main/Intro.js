@@ -34,18 +34,18 @@ const Intro = () => {
                         <h2 className="2xl:text-3xl font-medium text-[32px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
                             <p className="2xl:font-extralight font-light">
-                                kyle ton, a <span className="font-semibold">sophomore</span> at
-                                <span className="font-semibold"> orange coast college</span> studying
-                                <span className="font-semibold"> computer science!</span> i am an 
-                                aspiring software engineer with a passion for creating and developing 
+                                kyle ton, an <span className="font-semibold">upcoming</span> at
+                                <span className="font-semibold"> ucsd</span> studying
+                                <span className="font-semibold"> math + computer science!</span> i'm currently
+                                interning at foln, developing my skills. i have a passion for creating and developing 
                                 full-stack applications, with some cloud computing and machine learning 
                                 integration.
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
                                 language models <span className="font-semibold"> natural language processing </span> 
-                                and be able to work on integrating machine learning with software development,
-                                or even directly contribute to the advancement of the field itself!
+                                and integrating machine learning with software development,
+                                and hope, one day, to directly contribute to the advancement of the field itself!
                                 i am getting started with machine learning models right now, teaching myself
                                 the basics of machine learning and ai, and i hope to apply this towards 
                                 cool projects in the future!
@@ -54,7 +54,7 @@ const Intro = () => {
                                 my goal for my career one day is to become a
                                 <span className="font-semibold"> full-stack software engineer! </span> 
                                 perhaps one day, i will try to transition into machine learning 
-                                and ai engineer roles and contribute to the advancement of the 
+                                and ai engineer/researcher roles and contribute to the advancement of the 
                                 artificial intelligence sector! please feel free to contact me for 
                                 anything at all!
                             </p>
