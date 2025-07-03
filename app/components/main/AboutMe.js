@@ -1,6 +1,5 @@
 'use client';
 import ScrollMotionWrapper from "@/app/motion/ScrollMotionWrapper";
-import { useState } from "react";
 import { AboutTabs } from "../models/AboutMeTabs";
 
 

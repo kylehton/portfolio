@@ -38,16 +38,14 @@ const Intro = () => {
                                 <span className="font-semibold"> ucsd</span> studying
                                 <span className="font-semibold"> math + computer science!</span> i'm currently
                                 interning at foln, developing my skills. i have a passion for creating and developing 
-                                full-stack applications, with some cloud computing and machine learning 
-                                integration.
+                                full-stack applications, with some cloud computing and machine learning integration.
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
-                                language models <span className="font-semibold"> natural language processing </span> 
-                                and integrating machine learning with software development,
-                                and hope, one day, to directly contribute to the advancement of the field itself!
-                                i'm currently interning at foln, where i'm working on the devops side of things, taking care
-                                of the app's initial launch + building and integrating their own custom ai chatbot!
+                                language models, <span className="font-semibold"> natural language processing, </span> 
+                                and integrating ai/ml with software development. i'm currently interning at foln, where 
+                                i'm working on the devops side of things, taking care of the app's initial launch + 
+                                building and integrating their own custom ai chatbot!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
