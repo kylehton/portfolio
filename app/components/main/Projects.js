@@ -19,15 +19,15 @@ const Projects = () => {
               <ProjectEntry
                   content={{
                     title: "matchpointai",
-                    subheading: 'python, react, tailwind css, scikit-learn, seaborn, pandas, numpy, jupyter notebook',
+                    subheading: 'numpy, pandas, scikit-learn, fastapi, next.js (typescript), postgresql (neon), aws lambda, docker, vercel',
                     description: [
-                      "project is still under construction",
                       "a full stack machine learning application that uses xgboost to predict the likelihood of a tennis match outcome",
                       "feature engineered custom player stats using historical tennis match data",
                       "inspired by me playing tennis and wanting to know whether prime federer would beat alcaraz and/or sinner",
+                      "estimated at ~68% accuracy"
                     ],
-                    dates: 'may 2025 - present',
-                    deployment: "",
+                    dates: 'may 2025 - jun 2025',
+                    deployment: "https://match-point-ai.vercel.app/",
                     github: "https://github.com/kylehton/MatchPointAI",
                     video: ""
                   }}
