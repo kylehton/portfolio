@@ -37,23 +37,26 @@ const Intro = () => {
                                 kyle ton, an <span className="font-semibold">upcoming junior</span> at
                                 <span className="font-semibold"> ucsd</span> studying
                                 <span className="font-semibold"> math + computer science!</span> i'm currently
-                                interning at foln, developing my skills. i have a passion for creating and developing 
+                                learning about optimized computing. i have a passion for creating and developing 
                                 full-stack applications, with some cloud computing and machine learning integration.
                             </p>
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
                                 language models, <span className="font-semibold"> natural language processing, </span> 
                                 and integrating ai/ml with software development. i'm currently interning at foln, where 
-                                i'm working on the devops side of things, taking care of the app's initial launch + 
-                                building and integrating their own custom ai chatbot!
+                                i'm working on the devops side of things, taking care of the app's initial launch w/ aws hosting
+                                + building and integrating their own custom ai chatbot, among other things!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
-                                <span className="font-semibold"> full-stack software engineer! </span> 
-                                perhaps one day, i will try to transition into machine learning 
-                                and ai engineer/researcher roles and contribute to the advancement of the 
-                                artificial intelligence sector! please feel free to contact me for 
-                                anything at all!
+                                <span className="font-semibold"> software engineer! </span> 
+                                i also have secondary interests in finance (especially wealth management) 
+                                and artficial intelligence/machine learning, and would love to get the opportunity 
+                                to work in such environments! if you have any questions or opportunities, or for absolutely any
+                                reason at all, please feel free to contact me!
+                            </p>
+                            <p className="2xl:font-extralight font-light">
+                            {"{ "} anduril/anthropic/citadel, if you're reading, please hire me {" }"}
                             </p>
                         <ResumeDownloadButton />
                         </div>
