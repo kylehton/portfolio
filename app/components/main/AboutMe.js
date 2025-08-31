@@ -19,7 +19,6 @@ const AboutMe = () => {
                             contents={
                             <div className="flex flex-col items-center text-center space-y-2 w-full">
                                 <AboutTabs />
-
                             </div>
                             }
                         />

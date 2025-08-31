@@ -20,7 +20,7 @@ const Education = () => {
                 title: "bachelor's in mathematics and computer science",
                 subheading: 'university of california, san diego - la jolla, ca',
                 dates: 'aug 2025 - jun 2027',
-                description: ["possibly minoring in data science or artificial intelligence"]
+                description: ["possible minor in data science "]
               }}>
             </EduExpEntry>
             <EduExpEntry
@@ -28,7 +28,7 @@ const Education = () => {
                 title: "transfers' in computer science",
                 subheading: 'orange coast college - costa mesa, ca',
                 dates: 'jun 2023 - aug 2025',
-                description: ["relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations."]
+                description: ["gpa: 3.7/4.0", "relevant coursework: object oriented programming, computer architecture and assembly, discrete mathematics, data structures and algorithms, linear algebra, single and multivariable calculus, differential equations."]
               }}>
             </EduExpEntry>
             <EduExpEntry
@@ -36,7 +36,7 @@ const Education = () => {
                 title: "high school diploma",
                 subheading: 'la quinta high school - westminster, ca',
                 dates: 'sep 2019 - jun 2023',
-                description: ["gpa: 3.93/4.35 | rank: 36/550", "awarded seal of biliteracy in spanish."]
+                description: ["gpa: 3.93/4.0 uw 4.35/4.0 w | rank: 36/550", "awarded seal of biliteracy in spanish."]
               }}>
             </EduExpEntry>
                 

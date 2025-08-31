@@ -19,7 +19,7 @@ const Experience = () => {
                 title: 'full-stack software engineering intern',
                 subheading: 'forourlastnames - remote',
                 dates: 'jun 2025 - present',
-                description: ["working on initial launch of product and AWS hosting, and integrating a custom AI chatbot for ease of user experience"
+                description: ["launched company flagship product using aws s3, cloudfront, lambda, and supabase, as well as debugged and fixed ui bugs in typescript and express + node.js"
                 ]
               }}
             />
