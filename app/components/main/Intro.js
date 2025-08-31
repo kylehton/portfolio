@@ -56,7 +56,7 @@ const Intro = () => {
                                 reason at all, please feel free to contact me!
                             </p>
                             <p className="2xl:font-extralight font-light">
-                            {"{ "} anduril/anthropic/citadel, if you're reading, please hire me {" }"}
+                            {"{ "} google/anduril/anthropic/citadel, if you're reading, please hire me {" }"}
                             </p>
                         <ResumeDownloadButton />
                         </div>

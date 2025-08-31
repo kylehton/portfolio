@@ -21,7 +21,7 @@ const Socials = () => {
               <ScrollMotionWrapper 
                 contents={
                     <div id='my-social-links' className='flex flex-col font-normal text-[18px] text-zinc-500'> 
-                        <a target='_blank' href='https://www.linkedin.com/in/kyle-ton/' className='w-min'>
+                        <a target='_blank' href='https://www.linkedin.com/in/kylehton/' className='w-min'>
                             <Button className="bg-[#0A66C2] text-white font-bold py-2 px-4 lg:py-2 lg:px-5 border-2 border-white rounded-md 
                                   shadow-[3px_3px_0px_0px_gray] hover:shadow-[1px_1px_0px_0px_white] hover:translate-x-[2px] 
                                   hover:translate-y-[2px] mt-3 hover:scale-[1.02] hover:bg-[#004182] transition-all mr-4">
@@ -33,13 +33,6 @@ const Socials = () => {
                                   shadow-[3px_3px_0px_0px_black] hover:shadow-[1px_1px_0px_0px_white] hover:translate-x-[2px] 
                                   hover:translate-y-[2px] mt-4 hover:scale-[1.02] hover:bg-[#5FA85F] transition-all mr-4">
                                         github
-                            </Button>
-                        </a>
-                        <a target='_blank' href='https://www.devpost.com/kylehton/' className='w-min'>
-                            <Button className="bg-[#12394c] text-white font-bold py-2 px-4 lg:py-2 lg:px-5 border-2 border-white rounded-md 
-                                    shadow-[3px_3px_0px_0px_#6BD1EC] hover:shadow-[1px_1px_0px_0px_white] hover:translate-x-[2px] 
-                                    hover:translate-y-[2px] mt-4 hover:scale-[1.02] hover:bg-[#3BA29D] transition-all mr-4">
-                                        devpost
                             </Button>
                         </a>
                     </div>

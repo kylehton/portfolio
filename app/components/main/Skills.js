@@ -15,9 +15,9 @@ const Skills = () => {
               <ScrollMotionWrapper 
                 contents={
                   <div id='skillset' className="ml-3 font-light text-[15px] space-y-1">
-                    <p><b className='font-semibold'>languages:</b> html/css, javascript, python, java, c++, sql</p>
+                    <p><b className='font-semibold'>languages:</b> html/css, javascript/typescript, python, java, sql</p>
                     <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js, flask, spring boot</p>
-                    <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postgresql, aws, vercel, docker, redis, postman, visual studio</p>
+                    <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postgresql, pinecone, aws, vercel, docker, redis, postman, visual studio</p>
                     <p><b className='font-semibold'>machine learning:</b> numpy, pandas, matplotlib, seaborn, scikit-learn</p>
                   </div>
                 }>
