@@ -18,8 +18,9 @@ const Experience = () => {
               content={{
                 title: 'full-stack software engineering intern',
                 subheading: 'forourlastnames - remote',
-                dates: 'jun 2025 - present',
-                description: ["launched company flagship product using aws s3, cloudfront, lambda, and supabase, as well as debugged and fixed ui bugs in typescript and express + node.js"
+                dates: 'jun 2025 - aug 2025',
+                description: ["launched company flagship product using aws s3, cloudfront, lambda, and supabase, as well as debugged and fixed ui bugs in typescript and express + node.js",
+                "configured stripe subscriptions, integrating with application for an estimated $50k arr (annual recurring revennue) in the first year of launch"
                 ]
               }}
             />

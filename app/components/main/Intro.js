@@ -6,23 +6,23 @@ import ResumeDownloadButton from '../models/ResumeDownloadButton';
 const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+    
     const images = [
-        'images/intro/IMG_0076.JPEG',
-        'images/intro/IMG_0028.JPG',
-        'images/intro/IMG_0086.JPEG',
-        'images/intro/IMG_0088.JPG',
-        'images/intro/IMG_0092.JPEG',
-        'images/intro/IMG_0133.JPEG',
-        'images/intro/IMG_0235.JPG',
-        'images/intro/IMG_0219.JPG',
-        'images/intro/IMG_0269.JPEG',
+        'images/intro/japan 04.2024/IMG_0076.JPEG',
+        'images/intro/japan 04.2024/IMG_0028.JPG',
+        'images/intro/japan 04.2024/IMG_0086.JPEG',
+        'images/intro/japan 04.2024/IMG_0088.JPG',
+        'images/intro/japan 04.2024/IMG_0092.JPEG',
+        'images/intro/japan 04.2024/IMG_0133.JPEG',
+        'images/intro/japan 04.2024/IMG_0235.JPG',
+        'images/intro/japan 04.2024/IMG_0219.JPG',
+        'images/intro/japan 04.2024/IMG_0269.JPEG',
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         }, 3000);
-
         return () => clearInterval(interval);
     }, []);
 
@@ -43,9 +43,9 @@ const Intro = () => {
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in 
                                 language models, <span className="font-semibold"> natural language processing, </span> 
-                                and integrating ai/ml with software development. i'm currently interning at foln, where 
-                                i'm working on the devops side of things, taking care of the app's initial launch w/ aws hosting
-                                + building and integrating their own custom ai chatbot, among other things!
+                                and integrating ai/ml with software development. i just finished interning at foln, where 
+                                i worked on the devops side of things, and took care of the app's initial launch w/ aws and supabase hosting/config
+                                + integrated stripe subscriptions and payment, among other things!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
@@ -71,7 +71,7 @@ const Intro = () => {
                                 className="w-full h-full object-cover rounded-lg border-2 border-zinc-500"
                                 
                             />
-                            <p className="mr-2 mt-2 text-xs text-right font-mono">canon sd700is - japan 04.2024</p>
+                            <p className="mr-2 mt-2 text-xs text-right font-mono">canon sd700is - {(images[0].split('/'))[2]}</p>
                         </div>
                     </div>
                 </div>
