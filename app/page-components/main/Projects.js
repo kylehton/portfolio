@@ -18,6 +18,21 @@ const Projects = () => {
                 <div className="flex flex-col gap-8">
                 <ProjectEntry
                       content={{
+                        title: "syllabify",
+                        subheading: 'openai api, next.js, node.js, google calendar api, google oauth 2.0',
+                        description: [
+                          "my tool for deconstructing syllabi for class information and assignment/exam scheduling",
+                          "plan on introducing more features, like a chatbot + building a better dashboard for multiple classes",
+                          "currently uses local storage to store single-class syllabus schedule"
+                        ],
+                        dates: 'sep 2025',
+                        deployment: "",
+                        github: "https://github.com/kylehton/Syllabify",
+                        video: ""
+                      }}
+                  />
+                <ProjectEntry
+                      content={{
                         title: "git-support-hub",
                         subheading: 'openai api, fastapi, langchain, mongodb, github documentation',
                         description: [
