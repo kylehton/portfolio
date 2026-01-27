@@ -6,7 +6,7 @@ import ResumeDownloadButton from '../models/ResumeDownloadButton';
 const Intro = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    
+    /*
     const images = [
         'images/intro/japan 04.2024/IMG_0076.JPEG',
         'images/intro/japan 04.2024/IMG_0028.JPG',
@@ -18,6 +18,14 @@ const Intro = () => {
         'images/intro/japan 04.2024/IMG_0219.JPG',
         'images/intro/japan 04.2024/IMG_0269.JPEG',
     ];
+    */
+    const images = [
+        "images/intro/korea 11.2025/IMG_0016.JPG",
+        "images/intro/korea 11.2025/IMG_0051.JPG",
+        "images/intro/korea 11.2025/IMG_0091.JPG",
+        "images/intro/korea 11.2025/IMG_0112.JPG",
+        "images/intro/korea 11.2025/IMG_0120.JPG",
+    ]
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -34,18 +42,18 @@ const Intro = () => {
                         <h2 className="2xl:text-3xl font-medium text-[32px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
                             <p className="2xl:font-extralight font-light">
-                                kyle ton, an <span className="font-semibold">upcoming junior</span> at
+                                kyle ton, a <span className="font-semibold">junior</span> at
                                 <span className="font-semibold"> ucsd</span> studying
                                 <span className="font-semibold"> math + computer science!</span> i'm currently
-                                learning about optimized computing. i have a passion for creating and developing 
+                                learning about making systems more optimized and efficient. i have a passion for creating and developing 
                                 full-stack applications, with some cloud computing and machine learning integration.
                             </p>
                             <p className="2xl:font-extralight font-light ">
-                                i have a large interest in machine learning and ai, particularly in 
-                                language models, <span className="font-semibold"> natural language processing, </span> 
-                                and integrating ai/ml with software development. i just finished interning at foln, where 
-                                i worked on the devops side of things, and took care of the app's initial launch w/ aws and supabase hosting/config
-                                + integrated stripe subscriptions and payment, among other things!
+                                i have a large interest in machine learning and ai, particularly in large
+                                language models, and <span className="font-semibold"> integrating ai/ml with software development. </span> 
+                                 i just finished interning at foln, where i worked on the devops side of things, 
+                                 and took care of the app's initial launch w/ aws and supabase hosting/config + 
+                                 integrated stripe subscriptions and payment, among other things!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
@@ -56,7 +64,7 @@ const Intro = () => {
                                 reason at all, please feel free to contact me!
                             </p>
                             <p className="2xl:font-extralight font-light">
-                            {"{ "} google/anduril/anthropic/citadel, if you're reading, please hire me {" }"}
+                            {"{ "} notion, if you're reading, please hire me {" }"}
                             </p>
                         <ResumeDownloadButton />
                         </div>

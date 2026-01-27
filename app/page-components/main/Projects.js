@@ -18,15 +18,15 @@ const Projects = () => {
                 <div className="flex flex-col gap-8">
                 <ProjectEntry
                       content={{
-                        title: "gsort",
-                        subheading: 'python, fastapi, google apps script, gmail api, huggingface inference api',
+                        title: "labl",
+                        subheading: 'python, fastapi, gmail api, pinecone, mongodb, redis',
                         description: [
-                          "an automated email labeling management (later, deleting) gmail extension that uses gmail api and huggingface inference api to label emails based on their content",
+                          "an automated email labeling management (later, deleting) gmail extension that uses gmail api and vec. embedding centroids to label emails based on their content",
                           
                         ],
                         dates: 'oct 2025 - present',
                         deployment: "",
-                        github: "https://github.com/kylehton/GSort",
+                        github: "https://github.com/kylehton/Labl",
                         video: ""
                       }}
                   />
