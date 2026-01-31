@@ -22,7 +22,7 @@ const Intro = () => {
     const images = [
         "images/intro/korea 11.2025/IMG_0016.JPG",
         "images/intro/korea 11.2025/IMG_0051.JPG",
-        "images/intro/korea 11.2025/IMG_0091.JPG",
+        "images/intro/korea 11.2025/IMG_0092.JPG",
         "images/intro/korea 11.2025/IMG_0112.JPG",
         "images/intro/korea 11.2025/IMG_0120.JPG",
     ]
