@@ -16,6 +16,16 @@ const Experience = () => {
 
           <Entry
               content={{
+                title: 'incoming: site reliability engineering intern',
+                subheading: 'okta - bellevue, wa',
+                dates: 'jun 2026 - sep 2026',
+                description: ["working on security, reliability, and observability",
+                ]
+              }}
+            />
+
+          <Entry
+              content={{
                 title: 'full-stack software engineering intern',
                 subheading: 'forourlastnames - remote',
                 dates: 'jun 2025 - aug 2025',

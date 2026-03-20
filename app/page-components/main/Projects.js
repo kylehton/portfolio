@@ -19,12 +19,12 @@ const Projects = () => {
                 <ProjectEntry
                       content={{
                         title: "labl",
-                        subheading: 'python, fastapi, gmail api, pinecone, mongodb, redis',
+                        subheading: 'python, fastapi, google oauth, gmail api, mongodb, huggingface sentence-transformers (bge-small-en-v1.5)',
                         description: [
                           "an automated email labeling management (later, deleting) gmail extension that uses gmail api and vec. embedding centroids to label emails based on their content",
                           
                         ],
-                        dates: 'oct 2025 - present',
+                        dates: 'dec 2025 - present',
                         deployment: "",
                         github: "https://github.com/kylehton/Labl",
                         video: ""

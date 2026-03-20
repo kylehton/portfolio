@@ -64,7 +64,7 @@ const Intro = () => {
                                 reason at all, please feel free to contact me!
                             </p>
                             <p className="2xl:font-extralight font-light">
-                            {"{ "} notion, if you're reading, please hire me {" }"}
+                            {"{ "} google/notion, if you're reading, please hire me {" }"}
                             </p>
                         <ResumeDownloadButton />
                         </div>
