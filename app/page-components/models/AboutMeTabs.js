@@ -30,9 +30,10 @@ export function AboutTabs() {
         "/images/aboutme/personal/pizza.jpeg",
         "/images/aboutme/personal/seaside.jpeg",
         "/images/aboutme/personal/thesource.jpeg",
-        "/images/aboutme/personal/graduation.jpeg",
         "/images/aboutme/personal/venicebeach.jpeg",
         "/images/aboutme/personal/jaydenhironori.jpeg",
+        "/images/aboutme/personal/photoboothbrandon.jpg"
+        
     ];
     const foodContent = [
         "/images/aboutme/food/brewstory.jpeg",
@@ -44,11 +45,14 @@ export function AboutTabs() {
         "/images/aboutme/food/nookcoffeebar.jpeg",
         "/images/aboutme/food/northitalia.jpeg",
         "/images/aboutme/food/nostimobingsoo.jpeg",
-        "/images/aboutme/food/stereoscope.jpeg"
+        "/images/aboutme/food/stereoscope.jpeg",
+        "/images/aboutme/food/stacksbreakfast.jpg",
+        "/images/aboutme/food/outofordi.JPG",
+        "/images/aboutme/food/tsukiyosushi.jpg"
       ];
       
     const bookContent = [
-        "/images/aboutme/books/bookshelf.jpeg",  
+        "/images/aboutme/books/bookshelf.jpg",  
     ];
 
   return (

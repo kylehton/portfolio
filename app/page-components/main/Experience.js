@@ -23,6 +23,17 @@ const Experience = () => {
                 ]
               }}
             />
+          
+          <Entry
+              content={{
+                title: 'code2career g-swep fellow',
+                subheading: 'google x basta - remote',
+                dates: 'mar 2026 - may 2026',
+                description: ["10 week technical prep program, focusing on data structures and algorithms and solving lc style interviews", 
+                  "under mentorship of a google software engineer, and participating in mock interviews and resume reviews"
+                ]
+              }}
+            />
 
           <Entry
               content={{

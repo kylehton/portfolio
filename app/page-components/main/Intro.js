@@ -51,9 +51,8 @@ const Intro = () => {
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in large
                                 language models, and <span className="font-semibold"> integrating ai/ml with software development. </span> 
-                                 i just finished interning at foln, where i worked on the devops side of things, 
-                                 and took care of the app's initial launch w/ aws and supabase hosting/config + 
-                                 integrated stripe subscriptions and payment, among other things!
+                                 this summer, i will be interning at okta as a site reliability engineering intern, and am super excited to 
+                                 learn about how to make systems more reliable and scalable!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a
