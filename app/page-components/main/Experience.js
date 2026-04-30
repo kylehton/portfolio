@@ -19,7 +19,7 @@ const Experience = () => {
                 title: 'incoming: software development engineering intern',
                 subheading: 'amazon (aws) - seattle, wa',
                 dates: 'jun 2026 - sep 2026',
-                description: ["aws security assurance",
+                description: ["assuring security @ aws security assurance",
                 ]
               }}
             />

@@ -28,7 +28,7 @@ export function AboutTabs() {
         "/images/aboutme/personal/pizza.jpeg",
         "/images/aboutme/personal/seaside.jpeg",
         "/images/aboutme/personal/venicebeach.jpeg",
-        "/images/aboutme/personal/photoboothbrandon.jpg"
+        "/images/aboutme/personal/photoboothbrandon.JPG"
         
     ];
     const foodContent = [
