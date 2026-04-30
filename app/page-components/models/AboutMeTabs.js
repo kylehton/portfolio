@@ -22,16 +22,12 @@ export function AboutTabs() {
     const personalContent = [
         "/images/aboutme/personal/6-18-25-photobooth.jpeg",
         "/images/aboutme/personal/burlington.jpeg",
-        "/images/aboutme/personal/christmas.jpeg",
-        "/images/aboutme/personal/famjapan.jpeg",
         "/images/aboutme/personal/gentlemonster.jpeg",
         "/images/aboutme/personal/kbbq.jpeg",
         "/images/aboutme/personal/nemo.jpeg",
         "/images/aboutme/personal/pizza.jpeg",
         "/images/aboutme/personal/seaside.jpeg",
-        "/images/aboutme/personal/thesource.jpeg",
         "/images/aboutme/personal/venicebeach.jpeg",
-        "/images/aboutme/personal/jaydenhironori.jpeg",
         "/images/aboutme/personal/photoboothbrandon.jpg"
         
     ];
