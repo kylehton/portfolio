@@ -51,7 +51,8 @@ const Intro = () => {
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in large
                                 language models, and <span className="font-semibold"> integrating ai/ml with software development. </span> 
-                                 this summer, i will be interning at amazon (aws) as a software development engineering intern, and am super excited to 
+                                 this summer, i will be interning at <span className="font-semibold">amazon (aws)</span> as a 
+                                 <span className="font-semibold">software development engineer intern</span>, and am super excited to 
                                  learn and grow alongside so many other cool interns!
                             </p>
                             <p className="2xl:font-extralight font-light">
