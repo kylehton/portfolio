@@ -42,7 +42,7 @@ const Intro = () => {
                         <h2 className="2xl:text-3xl font-medium text-[32px] mb-6 2xl:mb-12">hello, i'm . . .</h2> {/* Increased margin bottom for 2xl */}
                         <div className="text-sm 2xl:text-lg space-y-6 max-w-prose">
                             <p className="2xl:font-extralight font-light">
-                                kyle ton, a <span className="font-semibold">junior</span> at
+                                kyle ton, a <span className="font-semibold">senior</span> at
                                 <span className="font-semibold"> ucsd</span> studying
                                 <span className="font-semibold"> math + computer science!</span> i'm currently
                                 learning about making systems more optimized and efficient. i have a passion for creating and developing 
@@ -51,9 +51,9 @@ const Intro = () => {
                             <p className="2xl:font-extralight font-light ">
                                 i have a large interest in machine learning and ai, particularly in large
                                 language models, and <span className="font-semibold"> integrating ai/ml with software development. </span> 
-                                 this summer, i will be interning at <span className="font-semibold">amazon (aws)</span> as a 
-                                 <span className="font-semibold"> software development engineer intern</span>, and am super excited to 
-                                 learn and grow alongside so many other cool interns!
+                                 i am recently intered at <span className="font-semibold">amazon (aws)</span> as a 
+                                 <span className="font-semibold"> software development engineer intern</span>, working on an automated agentic 
+                                 pipeline to triage security and compliance issues for the <span className="font-semibold">aws security assurance org</span>!
                             </p>
                             <p className="2xl:font-extralight font-light">
                                 my goal for my career one day is to become a

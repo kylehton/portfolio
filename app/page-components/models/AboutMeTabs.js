@@ -99,9 +99,8 @@ export function AboutTabs() {
             <CardTitle className='text-xl'>my current bookshelf!</CardTitle>
             <CardDescription className='text-xs mx-auto lg:w-[95%]'>
                 i have been reading a lot of books recently, mainly productivity, self-improvement,
-                and emotionally introspective books. some favorites are atomic habits,
-                dont believe everything you think, and the obstacle is the way.
-                feel free to drop any book recs below!
+                and emotionally introspective books. my current favorite is the courage to be disliked 
+                by ichiro kishimi and fumitake koga, exploring the concept of adlerian psychology as a life philosophy.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
