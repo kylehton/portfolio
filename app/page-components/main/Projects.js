@@ -18,13 +18,13 @@ const Projects = () => {
                 <div className="flex flex-col gap-8">
                 <ProjectEntry
                       content={{
-                        title: "labl",
+                        title: "labl [discontinued]",
                         subheading: 'python, fastapi, google oauth, gmail api, mongodb, huggingface sentence-transformers (bge-small-en-v1.5)',
                         description: [
                           "an automated email labeling management (later, deleting) gmail extension that uses gmail api and vec. embedding medoids to label emails based on their content",
                           
                         ],
-                        dates: 'dec 2025 - present',
+                        dates: 'dec 2025 - apr 2026',
                         deployment: "",
                         github: "https://github.com/kylehton/Labl",
                         video: ""
