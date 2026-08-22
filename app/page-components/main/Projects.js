@@ -18,6 +18,20 @@ const Projects = () => {
                 <div className="flex flex-col gap-8">
                 <ProjectEntry
                       content={{
+                        title: "atlas",
+                        subheading: 'python, fastapi, google oauth, tbd...',
+                        description: [
+                          "telegram personal assistant",
+                          
+                        ],
+                        dates: 'aug 2026 - present',
+                        deployment: "",
+                        github: "https://github.com/kylehton/Atlas",
+                        video: ""
+                      }}
+                  />
+                <ProjectEntry
+                      content={{
                         title: "labl [discontinued]",
                         subheading: 'python, fastapi, google oauth, gmail api, mongodb, huggingface sentence-transformers (bge-small-en-v1.5)',
                         description: [

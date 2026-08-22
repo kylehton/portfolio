@@ -20,7 +20,8 @@ const Experience = () => {
                 subheading: 'amazon (aws) - seattle, wa',
                 dates: 'jun 2026 - sep 2026',
                 description: ["audit management platform @ aws security assurance",
-                  "created an event-driven agent pipeline to automate triage process for security and compliance issues using aws lambda, sqs, dynamodb, aws bedrock, and eventbridge pipes"                ]
+                  "created an event-driven agent pipeline to automate triage process for security and compliance issues using aws lambda, sqs, dynamodb, aws bedrock, and eventbridge pipes",
+                  "implemented automated playwright testing through hydra throughout ci/cd pipelines"]
               }}
             />
           
