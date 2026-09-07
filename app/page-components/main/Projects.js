@@ -18,10 +18,24 @@ const Projects = () => {
                 <div className="flex flex-col gap-8">
                 <ProjectEntry
                       content={{
-                        title: "atlas",
-                        subheading: 'python, fastapi, google oauth, tbd...',
+                        title: "rewind",
+                        subheading: 'golang, tbd ...',
                         description: [
-                          "telegram personal assistant",
+                          "mini snapshot system for code, basically mini auto-commits and version saves",
+                          
+                        ],
+                        dates: 'not started yet',
+                        deployment: "",
+                        github: "https://github.com/kylehton/Rewind",
+                        video: ""
+                      }}
+                />
+                <ProjectEntry
+                      content={{
+                        title: "atlas",
+                        subheading: 'python, fastapi, google oauth, gmail, google calendar, notion, tbd...',
+                        description: [
+                          "telegram-based personal agent assistant",
                           
                         ],
                         dates: 'aug 2026 - present',

@@ -16,8 +16,9 @@ const Skills = () => {
                 contents={
                   <div id='skillset' className="ml-3 font-light text-[15px] space-y-1">
                     <p><b className='font-semibold'>languages:</b> html/css, javascript/typescript, python, java, sql</p>
-                    <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js, flask, spring boot</p>
-                    <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postgresql, pinecone, aws, vercel, docker, redis, postman, visual studio</p>
+                    <p><b className='font-semibold'>frameworks:</b> rest api, react, express, fastapi, next.js, flask, spring boot, playwright</p>
+                    <p><b className='font-semibold'>tools/applications:</b> git, firebase, mongodb, postgresql, pinecone, vercel, docker, redis, postman</p>
+                    <p><b className='font-semibold'>cloud (aws):</b> lambda, ec2, s3, dynamodb, sqs, eventbridge pipes, api gateway, cloudfront cdn</p>
                     <p><b className='font-semibold'>machine learning:</b> numpy, pandas, matplotlib, seaborn, scikit-learn</p>
                   </div>
                 }>
